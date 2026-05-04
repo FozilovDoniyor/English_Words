@@ -1,0 +1,4892 @@
+[
+  {
+    "english": "Hello, how are you?",
+    "uzbek": "Salom, qalay siz?",
+    "category": "Greetings"
+  },
+  {
+    "english": "I'm fine, thank you.",
+    "uzbek": "Men yaxshi, rahmat.",
+    "category": "Greetings"
+  },
+  {
+    "english": "What is your name?",
+    "uzbek": "Sizning ismingiz nima?",
+    "category": "Introductions"
+  },
+  {
+    "english": "My name is John.",
+    "uzbek": "Mening ismim Jon.",
+    "category": "Introductions"
+  },
+  {
+    "english": "Where are you from?",
+    "uzbek": "Siz qayerdansiz?",
+    "category": "Introductions"
+  },
+  {
+    "english": "I am from Uzbekistan.",
+    "uzbek": "Men O'zbekistondanman.",
+    "category": "Introductions"
+  },
+  {
+    "english": "How old are you?",
+    "uzbek": "Sizning yoshingiz nechchida?",
+    "category": "Personal Questions"
+  },
+  {
+    "english": "I am 25 years old.",
+    "uzbek": "Men 25 yoshdaman.",
+    "category": "Personal Questions"
+  },
+  {
+    "english": "What do you do?",
+    "uzbek": "Siz nima qilasiz?",
+    "category": "Work"
+  },
+  {
+    "english": "I am a teacher.",
+    "uzbek": "Men o'qituvchiman.",
+    "category": "Work"
+  },
+  {
+    "english": "Where do you work?",
+    "uzbek": "Siz qayerda ishlayapsiz?",
+    "category": "Work"
+  },
+  {
+    "english": "I work at a school.",
+    "uzbek": "Men maktabda ishlayman.",
+    "category": "Work"
+  },
+  {
+    "english": "What time is it?",
+    "uzbek": "Soat nechchi?",
+    "category": "Time"
+  },
+  {
+    "english": "It is 3 o'clock.",
+    "uzbek": "Soat 3.",
+    "category": "Time"
+  },
+  {
+    "english": "What day is it today?",
+    "uzbek": "Bugun qaysi kun?",
+    "category": "Time"
+  },
+  {
+    "english": "Today is Monday.",
+    "uzbek": "Bugun dushanba.",
+    "category": "Time"
+  },
+  {
+    "english": "I am hungry.",
+    "uzbek": "Men ochman.",
+    "category": "Food"
+  },
+  {
+    "english": "I want to eat.",
+    "uzbek": "Men ovqat yemoqchiman.",
+    "category": "Food"
+  },
+  {
+    "english": "What do you want to eat?",
+    "uzbek": "Siz nima yemoqchisiz?",
+    "category": "Food"
+  },
+  {
+    "english": "I want pizza.",
+    "uzbek": "Men pizza yemoqchiman.",
+    "category": "Food"
+  },
+  {
+    "english": "Can I have water?",
+    "uzbek": "Menga suv bera olasizmi?",
+    "category": "Food"
+  },
+  {
+    "english": "Yes, here you are.",
+    "uzbek": "Ha, marhamat.",
+    "category": "Food"
+  },
+  {
+    "english": "Where is the bathroom?",
+    "uzbek": "Hojatxona qayerda?",
+    "category": "Directions"
+  },
+  {
+    "english": "It is over there.",
+    "uzbek": "U yerdan o'sha tomonda.",
+    "category": "Directions"
+  },
+  {
+    "english": "How do I get to the station?",
+    "uzbek": "Vokzalga qanday boraman?",
+    "category": "Directions"
+  },
+  {
+    "english": "Go straight and turn left.",
+    "uzbek": "To'g'ri boring va chapga buriling.",
+    "category": "Directions"
+  },
+  {
+    "english": "I am lost.",
+    "uzbek": "Men adashdim.",
+    "category": "Directions"
+  },
+  {
+    "english": "Can you help me?",
+    "uzbek": "Menga yordam bera olasizmi?",
+    "category": "Help"
+  },
+  {
+    "english": "What is the problem?",
+    "uzbek": "Muammo nima?",
+    "category": "Help"
+  },
+  {
+    "english": "I need help.",
+    "uzbek": "Menga yordam kerak.",
+    "category": "Help"
+  },
+  {
+    "english": "Call the police.",
+    "uzbek": "Politsiyani chaqiring.",
+    "category": "Emergency"
+  },
+  {
+    "english": "I am sick.",
+    "uzbek": "Men kasalman.",
+    "category": "Health"
+  },
+  {
+    "english": "I have a headache.",
+    "uzbek": "Mening boshim og'riyapti.",
+    "category": "Health"
+  },
+  {
+    "english": "Where is the hospital?",
+    "uzbek": "Kasalxona qayerda?",
+    "category": "Health"
+  },
+  {
+    "english": "Take this medicine.",
+    "uzbek": "Bu dori iching.",
+    "category": "Health"
+  },
+  {
+    "english": "How much does it cost?",
+    "uzbek": "Qancha turadi?",
+    "category": "Shopping"
+  },
+  {
+    "english": "It costs 10 dollars.",
+    "uzbek": "U 10 dollar turadi.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I want to buy this.",
+    "uzbek": "Men buni sotib olmoqchiman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Do you have change?",
+    "uzbek": "Sizda mayda pul bormi?",
+    "category": "Shopping"
+  },
+  {
+    "english": "What is the weather like?",
+    "uzbek": "Ob-havo qanday?",
+    "category": "Weather"
+  },
+  {
+    "english": "It is sunny.",
+    "uzbek": "Quyoshli.",
+    "category": "Weather"
+  },
+  {
+    "english": "It is raining.",
+    "uzbek": "Yomg'ir yog'yapti.",
+    "category": "Weather"
+  },
+  {
+    "english": "It is cold.",
+    "uzbek": "Sovuq.",
+    "category": "Weather"
+  },
+  {
+    "english": "I like this place.",
+    "uzbek": "Menga bu joy yoqadi.",
+    "category": "Opinions"
+  },
+  {
+    "english": "I don't like it.",
+    "uzbek": "Menga yoqmaydi.",
+    "category": "Opinions"
+  },
+  {
+    "english": "It is beautiful.",
+    "uzbek": "Bu chiroyli.",
+    "category": "Opinions"
+  },
+  {
+    "english": "It is ugly.",
+    "uzbek": "Bu xunuk.",
+    "category": "Opinions"
+  },
+  {
+    "english": "I am happy.",
+    "uzbek": "Men baxtliman.",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am sad.",
+    "uzbek": "Men g'amginman.",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am angry.",
+    "uzbek": "Men g'azabliman.",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am tired.",
+    "uzbek": "Men charchadim.",
+    "category": "Emotions"
+  },
+  {
+    "english": "What are you doing?",
+    "uzbek": "Siz nima qilyapsiz?",
+    "category": "Activities"
+  },
+  {
+    "english": "I am reading a book.",
+    "uzbek": "Men kitob o'qiyapman.",
+    "category": "Activities"
+  },
+  {
+    "english": "I am watching TV.",
+    "uzbek": "Men televizor ko'ryapman.",
+    "category": "Activities"
+  },
+  {
+    "english": "I am listening to music.",
+    "uzbek": "Men musiqa tinglayapman.",
+    "category": "Activities"
+  },
+  {
+    "english": "Let's go to the park.",
+    "uzbek": "Parkka boraylik.",
+    "category": "Invitations"
+  },
+  {
+    "english": "Do you want to come?",
+    "uzbek": "Siz ham kelasizmi?",
+    "category": "Invitations"
+  },
+  {
+    "english": "Yes, I would like to.",
+    "uzbek": "Ha, men ham xohlayman.",
+    "category": "Invitations"
+  },
+  {
+    "english": "No, thank you.",
+    "uzbek": "Yo'q, rahmat.",
+    "category": "Invitations"
+  },
+  {
+    "english": "Happy birthday!",
+    "uzbek": "Tug'ilgan kuningiz bilan!",
+    "category": "Celebrations"
+  },
+  {
+    "english": "Congratulations!",
+    "uzbek": "Tabriklayman!",
+    "category": "Celebrations"
+  },
+  {
+    "english": "Merry Christmas!",
+    "uzbek": "Rojdestvo bilan!",
+    "category": "Celebrations"
+  },
+  {
+    "english": "Happy New Year!",
+    "uzbek": "Yangi yil bilan!",
+    "category": "Celebrations"
+  },
+  {
+    "english": "I love you.",
+    "uzbek": "Men seni sevaman.",
+    "category": "Love"
+  },
+  {
+    "english": "Thank you very much.",
+    "uzbek": "Katta rahmat.",
+    "category": "Gratitude"
+  },
+  {
+    "english": "You're welcome.",
+    "uzbek": "Arzimaydi.",
+    "category": "Gratitude"
+  },
+  {
+    "english": "Excuse me.",
+    "uzbek": "Kechirasiz.",
+    "category": "Politeness"
+  },
+  {
+    "english": "I'm sorry.",
+    "uzbek": "Kechirasiz.",
+    "category": "Politeness"
+  },
+  {
+    "english": "Please.",
+    "uzbek": "Iltimos.",
+    "category": "Politeness"
+  },
+  {
+    "english": "Goodbye.",
+    "uzbek": "Xayr.",
+    "category": "Farewells"
+  },
+  {
+    "english": "See you later.",
+    "uzbek": "Keyinroq ko'rishguncha.",
+    "category": "Farewells"
+  },
+  {
+    "english": "Take care.",
+    "uzbek": "O'zingizga g'amxo'rlik qiling.",
+    "category": "Farewells"
+  },
+  {
+    "english": "Good night.",
+    "uzbek": "Xayrli tun.",
+    "category": "Farewells"
+  },
+  {
+    "english": "Good morning.",
+    "uzbek": "Xayrli tong.",
+    "category": "Greetings"
+  },
+  {
+    "english": "Good afternoon.",
+    "uzbek": "Xayrli kun.",
+    "category": "Greetings"
+  },
+  {
+    "english": "Good evening.",
+    "uzbek": "Xayrli kech.",
+    "category": "Greetings"
+  },
+  {
+    "english": "How was your day?",
+    "uzbek": "Kun qanday o'tdi?",
+    "category": "Greetings"
+  },
+  {
+    "english": "It was good.",
+    "uzbek": "Yaxshi o'tdi.",
+    "category": "Greetings"
+  },
+  {
+    "english": "What are your plans?",
+    "uzbek": "Sizning rejalaringiz nima?",
+    "category": "Plans"
+  },
+  {
+    "english": "I am going to the cinema.",
+    "uzbek": "Men kinoga boraman.",
+    "category": "Plans"
+  },
+  {
+    "english": "I have to go.",
+    "uzbek": "Men ketishim kerak.",
+    "category": "Plans"
+  },
+  {
+    "english": "See you tomorrow.",
+    "uzbek": "Ertaga ko'rishguncha.",
+    "category": "Farewells"
+  },
+  {
+    "english": "I miss you.",
+    "uzbek": "Sizni sog'indim.",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am bored.",
+    "uzbek": "Men zerikdim.",
+    "category": "Emotions"
+  },
+  {
+    "english": "This is interesting.",
+    "uzbek": "Bu qiziq.",
+    "category": "Opinions"
+  },
+  {
+    "english": "I agree.",
+    "uzbek": "Men roziman.",
+    "category": "Opinions"
+  },
+  {
+    "english": "I disagree.",
+    "uzbek": "Men rozi emasman.",
+    "category": "Opinions"
+  },
+  {
+    "english": "What do you think?",
+    "uzbek": "Siz nima deb o'ylaysiz?",
+    "category": "Opinions"
+  },
+  {
+    "english": "I think it's good.",
+    "uzbek": "Menimcha, bu yaxshi.",
+    "category": "Opinions"
+  },
+  {
+    "english": "Can you repeat that?",
+    "uzbek": "Buni takrorlay olasizmi?",
+    "category": "Communication"
+  },
+  {
+    "english": "Speak slowly.",
+    "uzbek": "Sekin gapiring.",
+    "category": "Communication"
+  },
+  {
+    "english": "I don't understand.",
+    "uzbek": "Men tushunmayman.",
+    "category": "Communication"
+  },
+  {
+    "english": "What does this mean?",
+    "uzbek": "Bu nimani anglatadi?",
+    "category": "Communication"
+  },
+  {
+    "english": "How do you say this in English?",
+    "uzbek": "Bu inglizchada qanday aytiladi?",
+    "category": "Communication"
+  },
+  {
+    "english": "I speak a little English.",
+    "uzbek": "Men ozgina inglizcha gapiram.",
+    "category": "Communication"
+  },
+  {
+    "english": "Do you speak English?",
+    "uzbek": "Siz inglizcha gapirasizmi?",
+    "category": "Communication"
+  },
+  {
+    "english": "Yes, I do.",
+    "uzbek": "Ha, gapiraman.",
+    "category": "Communication"
+  },
+  {
+    "english": "No, I don't.",
+    "uzbek": "Yo'q, gapirmayman.",
+    "category": "Communication"
+  },
+  {
+    "english": "Where did you learn English?",
+    "uzbek": "Siz inglizchani qayerda o'rgandingiz?",
+    "category": "Education"
+  },
+  {
+    "english": "I learned it at school.",
+    "uzbek": "Men uni maktabda o'rgandim.",
+    "category": "Education"
+  },
+  {
+    "english": "I am studying English.",
+    "uzbek": "Men inglizcha o'rganayapman.",
+    "category": "Education"
+  },
+  {
+    "english": "English is difficult.",
+    "uzbek": "Inglizcha qiyin.",
+    "category": "Education"
+  },
+  {
+    "english": "English is easy.",
+    "uzbek": "Inglizcha oson.",
+    "category": "Education"
+  },
+  {
+    "english": "I need to practice.",
+    "uzbek": "Menga mashq qilish kerak.",
+    "category": "Education"
+  },
+  {
+    "english": "What is your favorite subject?",
+    "uzbek": "Sizning sevimli faningiz qaysi?",
+    "category": "Education"
+  },
+  {
+    "english": "My favorite subject is math.",
+    "uzbek": "Mening sevimli fanim matematika.",
+    "category": "Education"
+  },
+  {
+    "english": "I like history.",
+    "uzbek": "Menga tarix yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I don't like science.",
+    "uzbek": "Menga fan yoqmaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "What grade are you in?",
+    "uzbek": "Siz qaysi sinfda o'qiysiz?",
+    "category": "Education"
+  },
+  {
+    "english": "I am in the 10th grade.",
+    "uzbek": "Men 10-sinfdaman.",
+    "category": "Education"
+  },
+  {
+    "english": "I graduated from university.",
+    "uzbek": "Men universitetni tugatdim.",
+    "category": "Education"
+  },
+  {
+    "english": "What did you study?",
+    "uzbek": "Siz nima o'qidingiz?",
+    "category": "Education"
+  },
+  {
+    "english": "I studied computer science.",
+    "uzbek": "Men kompyuter fanlarini o'qidim.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a student.",
+    "uzbek": "Men talabaman.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a teacher.",
+    "uzbek": "Men o'qituvchiman.",
+    "category": "Work"
+  },
+  {
+    "english": "What is your job?",
+    "uzbek": "Sizning ishingiz nima?",
+    "category": "Work"
+  },
+  {
+    "english": "I am a doctor.",
+    "uzbek": "Men shifokorman.",
+    "category": "Work"
+  },
+  {
+    "english": "I am an engineer.",
+    "uzbek": "Men muhandisman.",
+    "category": "Work"
+  },
+  {
+    "english": "I work in an office.",
+    "uzbek": "Men ofisda ishlayman.",
+    "category": "Work"
+  },
+  {
+    "english": "I work from home.",
+    "uzbek": "Men uyda ishlayman.",
+    "category": "Work"
+  },
+  {
+    "english": "What time do you start work?",
+    "uzbek": "Siz ishni qachon boshlaysiz?",
+    "category": "Work"
+  },
+  {
+    "english": "I start at 9 AM.",
+    "uzbek": "Men soat 9 da boshlayman.",
+    "category": "Work"
+  },
+  {
+    "english": "I finish at 5 PM.",
+    "uzbek": "Men soat 5 da tugayman.",
+    "category": "Work"
+  },
+  {
+    "english": "Do you like your job?",
+    "uzbek": "Sizga ishingiz yoqadimi?",
+    "category": "Work"
+  },
+  {
+    "english": "Yes, I do.",
+    "uzbek": "Ha, yoqadi.",
+    "category": "Work"
+  },
+  {
+    "english": "No, I don't.",
+    "uzbek": "Yo'q, yoqmaydi.",
+    "category": "Work"
+  },
+  {
+    "english": "I want to change my job.",
+    "uzbek": "Men ishni o'zgartirmoqchiman.",
+    "category": "Work"
+  },
+  {
+    "english": "What is your hobby?",
+    "uzbek": "Sizning xobbiyingiz nima?",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like reading.",
+    "uzbek": "Menga o'qish yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like playing sports.",
+    "uzbek": "Menga sport o'ynash yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like cooking.",
+    "uzbek": "Menga paz bo'lish yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like traveling.",
+    "uzbek": "Menga sayohat qilish yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "What music do you like?",
+    "uzbek": "Siz qanday musiqa yoqtirasiz?",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like pop music.",
+    "uzbek": "Menga pop musiqa yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I like classical music.",
+    "uzbek": "Menga klassik musiqa yoqadi.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "Do you play any instruments?",
+    "uzbek": "Siz biron asbobda o'ynaysizmi?",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I play the guitar.",
+    "uzbek": "Men gitara o'ynayman.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I play the piano.",
+    "uzbek": "Men pianino o'ynayman.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "I don't play any instruments.",
+    "uzbek": "Men hech qanday asbobda o'ynamayman.",
+    "category": "Hobbies"
+  },
+  {
+    "english": "What is your favorite color?",
+    "uzbek": "Sizning sevimli rangingiz qaysi?",
+    "category": "Preferences"
+  },
+  {
+    "english": "My favorite color is blue.",
+    "uzbek": "Mening sevimli rangim ko'k.",
+    "category": "Preferences"
+  },
+  {
+    "english": "I like red.",
+    "uzbek": "Menga qizil yoqadi.",
+    "category": "Preferences"
+  },
+  {
+    "english": "What is your favorite food?",
+    "uzbek": "Sizning sevimli taomingiz nima?",
+    "category": "Preferences"
+  },
+  {
+    "english": "My favorite food is pizza.",
+    "uzbek": "Mening sevimli taomim pizza.",
+    "category": "Preferences"
+  },
+  {
+    "english": "I like sushi.",
+    "uzbek": "Menga sushi yoqadi.",
+    "category": "Preferences"
+  },
+  {
+    "english": "What is your favorite movie?",
+    "uzbek": "Sizning sevimli filmingiz qaysi?",
+    "category": "Preferences"
+  },
+  {
+    "english": "My favorite movie is Titanic.",
+    "uzbek": "Mening sevimli filmim Titanic.",
+    "category": "Preferences"
+  },
+  {
+    "english": "I like action movies.",
+    "uzbek": "Menga action filmlar yoqadi.",
+    "category": "Preferences"
+  },
+  {
+    "english": "What sports do you like?",
+    "uzbek": "Siz qanday sportlarni yoqtirasiz?",
+    "category": "Sports"
+  },
+  {
+    "english": "I like football.",
+    "uzbek": "Menga futbol yoqadi.",
+    "category": "Sports"
+  },
+  {
+    "english": "I like basketball.",
+    "uzbek": "Menga basketbol yoqadi.",
+    "category": "Sports"
+  },
+  {
+    "english": "I like tennis.",
+    "uzbek": "Menga tennis yoqadi.",
+    "category": "Sports"
+  },
+  {
+    "english": "Do you watch sports?",
+    "uzbek": "Siz sport ko'rasizmi?",
+    "category": "Sports"
+  },
+  {
+    "english": "Yes, I watch football.",
+    "uzbek": "Ha, men futbol ko'raman.",
+    "category": "Sports"
+  },
+  {
+    "english": "Who is your favorite player?",
+    "uzbek": "Sizning sevimli o'yinchangiz kim?",
+    "category": "Sports"
+  },
+  {
+    "english": "My favorite player is Messi.",
+    "uzbek": "Mening sevimli o'yinchim Messi.",
+    "category": "Sports"
+  },
+  {
+    "english": "What is your favorite team?",
+    "uzbek": "Sizning sevimli jamoangiz qaysi?",
+    "category": "Sports"
+  },
+  {
+    "english": "My favorite team is Barcelona.",
+    "uzbek": "Mening sevimli jamoam Barselona.",
+    "category": "Sports"
+  },
+  {
+    "english": "I like swimming.",
+    "uzbek": "Menga suzish yoqadi.",
+    "category": "Sports"
+  },
+  {
+    "english": "I like running.",
+    "uzbek": "Menga yugurish yoqadi.",
+    "category": "Sports"
+  },
+  {
+    "english": "Do you exercise?",
+    "uzbek": "Siz sport qilasizmi?",
+    "category": "Sports"
+  },
+  {
+    "english": "Yes, I go to the gym.",
+    "uzbek": "Ha, men sport zaliga boraman.",
+    "category": "Sports"
+  },
+  {
+    "english": "I exercise every day.",
+    "uzbek": "Men har kuni sport qilaman.",
+    "category": "Sports"
+  },
+  {
+    "english": "What is your favorite animal?",
+    "uzbek": "Sizning sevimli hayvoningiz qaysi?",
+    "category": "Animals"
+  },
+  {
+    "english": "My favorite animal is a dog.",
+    "uzbek": "Mening sevimli hayvonim it.",
+    "category": "Animals"
+  },
+  {
+    "english": "I like cats.",
+    "uzbek": "Menga mushuklar yoqadi.",
+    "category": "Animals"
+  },
+  {
+    "english": "I like birds.",
+    "uzbek": "Menga qushlar yoqadi.",
+    "category": "Animals"
+  },
+  {
+    "english": "Do you have a pet?",
+    "uzbek": "Sizda uy hayvoni bormi?",
+    "category": "Animals"
+  },
+  {
+    "english": "Yes, I have a dog.",
+    "uzbek": "Ha, mening itim bor.",
+    "category": "Animals"
+  },
+  {
+    "english": "No, I don't have a pet.",
+    "uzbek": "Yo'q, mening uy hayvonim yo'q.",
+    "category": "Animals"
+  },
+  {
+    "english": "What is your favorite season?",
+    "uzbek": "Sizning sevimli faslingiz qaysi?",
+    "category": "Seasons"
+  },
+  {
+    "english": "My favorite season is summer.",
+    "uzbek": "Mening sevimli faslim yoz.",
+    "category": "Seasons"
+  },
+  {
+    "english": "I like autumn.",
+    "uzbek": "Menga kuz yoqadi.",
+    "category": "Seasons"
+  },
+  {
+    "english": "Winter is cold.",
+    "uzbek": "Qish sovuq.",
+    "category": "Seasons"
+  },
+  {
+    "english": "Spring is beautiful.",
+    "uzbek": "Bahor chiroyli.",
+    "category": "Seasons"
+  },
+  {
+    "english": "What is the date today?",
+    "uzbek": "Bugun qaysi sana?",
+    "category": "Time"
+  },
+  {
+    "english": "Today is May 4th.",
+    "uzbek": "Bugun 4-may.",
+    "category": "Time"
+  },
+  {
+    "english": "When is your birthday?",
+    "uzbek": "Sizning tug'ilgan kuningiz qachon?",
+    "category": "Personal Questions"
+  },
+  {
+    "english": "My birthday is in June.",
+    "uzbek": "Mening tug'ilgan kunim iyunda.",
+    "category": "Personal Questions"
+  },
+  {
+    "english": "How many brothers and sisters do you have?",
+    "uzbek": "Sizda nechta aka-uka va opa-singil bor?",
+    "category": "Family"
+  },
+  {
+    "english": "I have one brother.",
+    "uzbek": "Mening bir aka-ukam bor.",
+    "category": "Family"
+  },
+  {
+    "english": "I have two sisters.",
+    "uzbek": "Mening ikki opa-singlim bor.",
+    "category": "Family"
+  },
+  {
+    "english": "Do you have children?",
+    "uzbek": "Sizda farzand bormi?",
+    "category": "Family"
+  },
+  {
+    "english": "Yes, I have one child.",
+    "uzbek": "Ha, mening bir farzandim bor.",
+    "category": "Family"
+  },
+  {
+    "english": "No, I don't have children.",
+    "uzbek": "Yo'q, mening farzandim yo'q.",
+    "category": "Family"
+  },
+  {
+    "english": "What does your father do?",
+    "uzbek": "Sizning otangiz nima qiladi?",
+    "category": "Family"
+  },
+  {
+    "english": "My father is a driver.",
+    "uzbek": "Mening otam haydovchi.",
+    "category": "Family"
+  },
+  {
+    "english": "My mother is a housewife.",
+    "uzbek": "Mening onam uy bekasi.",
+    "category": "Family"
+  },
+  {
+    "english": "I live with my parents.",
+    "uzbek": "Men ota-onam bilan yashayman.",
+    "category": "Family"
+  },
+  {
+    "english": "I live alone.",
+    "uzbek": "Men yolg'iz yashayman.",
+    "category": "Family"
+  },
+  {
+    "english": "Where do you live?",
+    "uzbek": "Siz qayerda yashaysiz?",
+    "category": "Living"
+  },
+  {
+    "english": "I live in Tashkent.",
+    "uzbek": "Men Toshkentda yashayman.",
+    "category": "Living"
+  },
+  {
+    "english": "I live in an apartment.",
+    "uzbek": "Men kvartirada yashayman.",
+    "category": "Living"
+  },
+  {
+    "english": "I live in a house.",
+    "uzbek": "Men uyda yashayman.",
+    "category": "Living"
+  },
+  {
+    "english": "My house is big.",
+    "uzbek": "Mening uym katta.",
+    "category": "Living"
+  },
+  {
+    "english": "My apartment is small.",
+    "uzbek": "Mening kvartiram kichik.",
+    "category": "Living"
+  },
+  {
+    "english": "How many rooms does your house have?",
+    "uzbek": "Sizning uyingizda nechta xona bor?",
+    "category": "Living"
+  },
+  {
+    "english": "My house has 3 rooms.",
+    "uzbek": "Mening uymda 3 ta xona bor.",
+    "category": "Living"
+  },
+  {
+    "english": "I have a garden.",
+    "uzbek": "Mening bog'im bor.",
+    "category": "Living"
+  },
+  {
+    "english": "I don't have a garden.",
+    "uzbek": "Mening bog'im yo'q.",
+    "category": "Living"
+  },
+  {
+    "english": "What is your phone number?",
+    "uzbek": "Sizning telefon raqamingiz nima?",
+    "category": "Contact"
+  },
+  {
+    "english": "My phone number is 123-456-7890.",
+    "uzbek": "Mening telefon raqamim 123-456-7890.",
+    "category": "Contact"
+  },
+  {
+    "english": "What is your email?",
+    "uzbek": "Sizning emailingiz nima?",
+    "category": "Contact"
+  },
+  {
+    "english": "My email is john@example.com.",
+    "uzbek": "Mening emailingim john@example.com.",
+    "category": "Contact"
+  },
+  {
+    "english": "Can I call you?",
+    "uzbek": "Sizga qo'ng'iroq qila olamanmi?",
+    "category": "Contact"
+  },
+  {
+    "english": "Yes, please call me.",
+    "uzbek": "Ha, menga qo'ng'iroq qiling.",
+    "category": "Contact"
+  },
+  {
+    "english": "No, don't call me.",
+    "uzbek": "Yo'q, menga qo'ng'iroq qilmang.",
+    "category": "Contact"
+  },
+  {
+    "english": "I will send you a message.",
+    "uzbek": "Men sizga xabar yuboraman.",
+    "category": "Contact"
+  },
+  {
+    "english": "I will email you.",
+    "uzbek": "Men sizga email yuboraman.",
+    "category": "Contact"
+  },
+  {
+    "english": "What is your address?",
+    "uzbek": "Sizning manzilingiz qayer?",
+    "category": "Contact"
+  },
+  {
+    "english": "My address is 123 Main Street.",
+    "uzbek": "Mening manzilim 123 Main Street.",
+    "category": "Contact"
+  },
+  {
+    "english": "How do you go to work?",
+    "uzbek": "Siz ishga qanday borasiz?",
+    "category": "Transportation"
+  },
+  {
+    "english": "I go by car.",
+    "uzbek": "Men mashinada boraman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I go by bus.",
+    "uzbek": "Men avtobusda boraman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I walk to work.",
+    "uzbek": "Men piyoda boraman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I take the metro.",
+    "uzbek": "Men metroda boraman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "How long does it take?",
+    "uzbek": "Qancha vaqt ketadi?",
+    "category": "Transportation"
+  },
+  {
+    "english": "It takes 30 minutes.",
+    "uzbek": "U 30 daqiqa ketadi.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Traffic is bad.",
+    "uzbek": "Tirbandlik yomon.",
+    "category": "Transportation"
+  },
+  {
+    "english": "The bus is late.",
+    "uzbek": "Avtobus kechikdi.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I missed the train.",
+    "uzbek": "Men poezdni o'tkazib yubordim.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Where is the nearest station?",
+    "uzbek": "Eng yaqin stansiya qayerda?",
+    "category": "Transportation"
+  },
+  {
+    "english": "It is 5 minutes away.",
+    "uzbek": "U 5 daqiqa uzoqlikda.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Do you have a car?",
+    "uzbek": "Sizda mashina bormi?",
+    "category": "Transportation"
+  },
+  {
+    "english": "Yes, I have a red car.",
+    "uzbek": "Ha, mening qizil mashinam bor.",
+    "category": "Transportation"
+  },
+  {
+    "english": "No, I don't have a car.",
+    "uzbek": "Yo'q, mening mashinam yo'q.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I ride a bicycle.",
+    "uzbek": "Men velosipedda yuraman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I like driving.",
+    "uzbek": "Menga haydash yoqadi.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Driving is fun.",
+    "uzbek": "Haydash qiziq.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I don't like driving in the city.",
+    "uzbek": "Menga shaharda haydash yoqmaydi.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Parking is difficult.",
+    "uzbek": "Parkovka qiyin.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Gas is expensive.",
+    "uzbek": "Benzin qimmat.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I use public transport.",
+    "uzbek": "Men jamoat transportidan foydalanaman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Public transport is convenient.",
+    "uzbek": "Jamoat transport qulay.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I prefer walking.",
+    "uzbek": "Men piyoda yurishni afzal ko'raman.",
+    "category": "Transportation"
+  },
+  {
+    "english": "Walking is healthy.",
+    "uzbek": "Piyoda yurish sog'lom.",
+    "category": "Transportation"
+  },
+  {
+    "english": "I am going shopping.",
+    "uzbek": "Men xarid qilishga boraman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "What do you need?",
+    "uzbek": "Sizga nima kerak?",
+    "category": "Shopping"
+  },
+  {
+    "english": "I need bread and milk.",
+    "uzbek": "Menga non va sut kerak.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Where is the supermarket?",
+    "uzbek": "Supermarket qayerda?",
+    "category": "Shopping"
+  },
+  {
+    "english": "It is on the corner.",
+    "uzbek": "U burchakda.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I buy clothes online.",
+    "uzbek": "Men kiyimlarni onlayn sotib olaman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Online shopping is easy.",
+    "uzbek": "Onlayn xarid qilish oson.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I prefer shopping in stores.",
+    "uzbek": "Men do'konlarda xarid qilishni afzal ko'raman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Stores have more options.",
+    "uzbek": "Do'konlarda ko'proq variantlar bor.",
+    "category": "Shopping"
+  },
+  {
+    "english": "What size do you wear?",
+    "uzbek": "Siz qanday o'lchamda kiyinasiz?",
+    "category": "Shopping"
+  },
+  {
+    "english": "I wear size M.",
+    "uzbek": "Men M o'lchamda kiyinaman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "This is too big.",
+    "uzbek": "Bu juda katta.",
+    "category": "Shopping"
+  },
+  {
+    "english": "This is too small.",
+    "uzbek": "Bu juda kichik.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Do you have this in blue?",
+    "uzbek": "Bu ko'k rangda bormi?",
+    "category": "Shopping"
+  },
+  {
+    "english": "Yes, we have it.",
+    "uzbek": "Ha, bizda bor.",
+    "category": "Shopping"
+  },
+  {
+    "english": "No, we don't have it.",
+    "uzbek": "Yo'q, bizda yo'q.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Can I try it on?",
+    "uzbek": "Men buni kiyib ko'ra olamanmi?",
+    "category": "Shopping"
+  },
+  {
+    "english": "The fitting room is over there.",
+    "uzbek": "Kiyinish xonasi u yerdan.",
+    "category": "Shopping"
+  },
+  {
+    "english": "It fits perfectly.",
+    "uzbek": "Bu mukammal o'tiradi.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I will buy it.",
+    "uzbek": "Men buni sotib olaman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I don't like it.",
+    "uzbek": "Menga yoqmaydi.",
+    "category": "Shopping"
+  },
+  {
+    "english": "The price is high.",
+    "uzbek": "Narx baland.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Can you give me a discount?",
+    "uzbek": "Menga chegirma bera olasizmi?",
+    "category": "Shopping"
+  },
+  {
+    "english": "Yes, 10% off.",
+    "uzbek": "Ha, 10% chegirma.",
+    "category": "Shopping"
+  },
+  {
+    "english": "No discount.",
+    "uzbek": "Chegirma yo'q.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I pay by card.",
+    "uzbek": "Men kartochka bilan to'layman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I pay in cash.",
+    "uzbek": "Men naqd pul bilan to'layman.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Here is your receipt.",
+    "uzbek": "Mana sizning chekingiz.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Thank you for shopping.",
+    "uzbek": "Xarid uchun rahmat.",
+    "category": "Shopping"
+  },
+  {
+    "english": "Come again.",
+    "uzbek": "Yana keling.",
+    "category": "Shopping"
+  },
+  {
+    "english": "I am going to the bank.",
+    "uzbek": "Men bankka boraman.",
+    "category": "Banking"
+  },
+  {
+    "english": "I need to withdraw money.",
+    "uzbek": "Menga pul yechish kerak.",
+    "category": "Banking"
+  },
+  {
+    "english": "How much do you want?",
+    "uzbek": "Qancha kerak?",
+    "category": "Banking"
+  },
+  {
+    "english": "100 dollars.",
+    "uzbek": "100 dollar.",
+    "category": "Banking"
+  },
+  {
+    "english": "Here is your money.",
+    "uzbek": "Mana sizning pulingiz.",
+    "category": "Banking"
+  },
+  {
+    "english": "I want to open an account.",
+    "uzbek": "Men hisob ochmoqchiman.",
+    "category": "Banking"
+  },
+  {
+    "english": "What type of account?",
+    "uzbek": "Qanday hisob?",
+    "category": "Banking"
+  },
+  {
+    "english": "Savings account.",
+    "uzbek": "Jamg'arma hisobi.",
+    "category": "Banking"
+  },
+  {
+    "english": "Checking account.",
+    "uzbek": "Tekshirish hisobi.",
+    "category": "Banking"
+  },
+  {
+    "english": "I need my ID.",
+    "uzbek": "Menga ID kerak.",
+    "category": "Banking"
+  },
+  {
+    "english": "Fill out this form.",
+    "uzbek": "Bu formani to'ldiring.",
+    "category": "Banking"
+  },
+  {
+    "english": "What is your balance?",
+    "uzbek": "Sizning balansingiz qancha?",
+    "category": "Banking"
+  },
+  {
+    "english": "My balance is 500 dollars.",
+    "uzbek": "Mening balansim 500 dollar.",
+    "category": "Banking"
+  },
+  {
+    "english": "I want to transfer money.",
+    "uzbek": "Men pul o'tkazmoqchiman.",
+    "category": "Banking"
+  },
+  {
+    "english": "To which account?",
+    "uzbek": "Qaysi hisobga?",
+    "category": "Banking"
+  },
+  {
+    "english": "To my friend's account.",
+    "uzbek": "Do'stimning hisobiga.",
+    "category": "Banking"
+  },
+  {
+    "english": "The transfer is complete.",
+    "uzbek": "O'tkazma tugadi.",
+    "category": "Banking"
+  },
+  {
+    "english": "I lost my card.",
+    "uzbek": "Men kartochkamni yo'qotdim.",
+    "category": "Banking"
+  },
+  {
+    "english": "I need to report it.",
+    "uzbek": "Men buni xabar qilishim kerak.",
+    "category": "Banking"
+  },
+  {
+    "english": "Call this number.",
+    "uzbek": "Bu raqamga qo'ng'iroq qiling.",
+    "category": "Banking"
+  },
+  {
+    "english": "I will block the card.",
+    "uzbek": "Men kartochkani bloklayman.",
+    "category": "Banking"
+  },
+  {
+    "english": "I am going to the post office.",
+    "uzbek": "Men pochta bo'limiga boraman.",
+    "category": "Post"
+  },
+  {
+    "english": "I want to send a letter.",
+    "uzbek": "Men xat yubormoqchiman.",
+    "category": "Post"
+  },
+  {
+    "english": "I want to send a package.",
+    "uzbek": "Men posilka yubormoqchiman.",
+    "category": "Post"
+  },
+  {
+    "english": "How much does it cost?",
+    "uzbek": "Qancha turadi?",
+    "category": "Post"
+  },
+  {
+    "english": "It costs 5 dollars.",
+    "uzbek": "U 5 dollar turadi.",
+    "category": "Post"
+  },
+  {
+    "english": "Where is it going?",
+    "uzbek": "Bu qayerda boradi?",
+    "category": "Post"
+  },
+  {
+    "english": "To the USA.",
+    "uzbek": "AQSh ga.",
+    "category": "Post"
+  },
+  {
+    "english": "Fill out this form.",
+    "uzbek": "Bu formani to'ldiring.",
+    "category": "Post"
+  },
+  {
+    "english": "Write the address clearly.",
+    "uzbek": "Manzilni aniq yozing.",
+    "category": "Post"
+  },
+  {
+    "english": "I need stamps.",
+    "uzbek": "Menga marka kerak.",
+    "category": "Post"
+  },
+  {
+    "english": "How many?",
+    "uzbek": "Nechta?",
+    "category": "Post"
+  },
+  {
+    "english": "Ten stamps.",
+    "uzbek": "O'n ta marka.",
+    "category": "Post"
+  },
+  {
+    "english": "I am waiting for a package.",
+    "uzbek": "Men posilka kutayapman.",
+    "category": "Post"
+  },
+  {
+    "english": "Check your mailbox.",
+    "uzbek": "Pochtangizni tekshiring.",
+    "category": "Post"
+  },
+  {
+    "english": "It arrived today.",
+    "uzbek": "U bugun keldi.",
+    "category": "Post"
+  },
+  {
+    "english": "Sign here.",
+    "uzbek": "Bu yerga imzo qo'ying.",
+    "category": "Post"
+  },
+  {
+    "english": "Thank you.",
+    "uzbek": "Rahmat.",
+    "category": "Post"
+  },
+  {
+    "english": "I am going to the restaurant.",
+    "uzbek": "Men restoranga boraman.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "A table for two.",
+    "uzbek": "Ikki kishilik stol.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Do you have a reservation?",
+    "uzbek": "Sizda bron bormi?",
+    "category": "Restaurant"
+  },
+  {
+    "english": "No, we don't.",
+    "uzbek": "Yo'q, yo'q.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Please wait.",
+    "uzbek": "Iltimos, kuting.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Here is the menu.",
+    "uzbek": "Mana menyu.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "What do you recommend?",
+    "uzbek": "Nima tavsiya qilasiz?",
+    "category": "Restaurant"
+  },
+  {
+    "english": "The steak is good.",
+    "uzbek": "Steyk yaxshi.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "I will have the salad.",
+    "uzbek": "Men salat olaman.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "What about you?",
+    "uzbek": "Siz-chi?",
+    "category": "Restaurant"
+  },
+  {
+    "english": "I will have the pasta.",
+    "uzbek": "Men pasta olaman.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Anything to drink?",
+    "uzbek": "Ichimlik nima?",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Water, please.",
+    "uzbek": "Suv, iltimos.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Red wine.",
+    "uzbek": "Qizil vino.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "The food is delicious.",
+    "uzbek": "Taom mazali.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Can I have the bill?",
+    "uzbek": "Hisobni bera olasizmi?",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Here is the bill.",
+    "uzbek": "Mana hisob.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Keep the change.",
+    "uzbek": "Qaytimni qoldiring.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "Thank you for coming.",
+    "uzbek": "Kelganingiz uchun rahmat.",
+    "category": "Restaurant"
+  },
+  {
+    "english": "I am going to the cinema.",
+    "uzbek": "Men kinoga boraman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "What movie are you watching?",
+    "uzbek": "Qaysi filmni ko'ryapsiz?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I am watching an action movie.",
+    "uzbek": "Men action film ko'ryapman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "Two tickets, please.",
+    "uzbek": "Ikki chipta, iltimos.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "What time does it start?",
+    "uzbek": "U qachon boshlanadi?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "At 8 PM.",
+    "uzbek": "Soat 8 da.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "Popcorn, please.",
+    "uzbek": "Popkorn, iltimos.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "The movie was great.",
+    "uzbek": "Film ajoyib edi.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I didn't like it.",
+    "uzbek": "Menga yoqmadi.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I am going to a concert.",
+    "uzbek": "Men konsertga boraman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "Who is playing?",
+    "uzbek": "Kim o'ynaydi?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "My favorite band.",
+    "uzbek": "Mening sevimli guruhim.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "The concert was amazing.",
+    "uzbek": "Konsert ajoyib edi.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I like watching TV.",
+    "uzbek": "Menga televizor ko'rish yoqadi.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "What is your favorite show?",
+    "uzbek": "Sizning sevimli shouingiz qaysi?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I like comedy shows.",
+    "uzbek": "Menga komediya shoulari yoqadi.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I am reading a book.",
+    "uzbek": "Men kitob o'qiyapman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "What book are you reading?",
+    "uzbek": "Qaysi kitobni o'qiyapsiz?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "A mystery novel.",
+    "uzbek": "Sirli roman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "The book is interesting.",
+    "uzbek": "Kitob qiziq.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I finished the book.",
+    "uzbek": "Men kitobni tugatdim.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I am playing video games.",
+    "uzbek": "Men video o'yin o'ynayapman.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "What game are you playing?",
+    "uzbek": "Qaysi o'yinni o'ynayapsiz?",
+    "category": "Entertainment"
+  },
+  {
+    "english": "A racing game.",
+    "uzbek": "Yarish o'yini.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "Video games are fun.",
+    "uzbek": "Video o'yinlar qiziq.",
+    "category": "Entertainment"
+  },
+  {
+    "english": "I am going to the park.",
+    "uzbek": "Men parkka boraman.",
+    "category": "Leisure"
+  },
+  {
+    "english": "It is a nice day.",
+    "uzbek": "Kun yaxshi.",
+    "category": "Leisure"
+  },
+  {
+    "english": "Let's have a picnic.",
+    "uzbek": "Piknik qilaylik.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I brought sandwiches.",
+    "uzbek": "Men sendvich olib keldim.",
+    "category": "Leisure"
+  },
+  {
+    "english": "The weather is perfect.",
+    "uzbek": "Ob-havo mukammal.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I am relaxing.",
+    "uzbek": "Men dam olayapman.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I am taking a walk.",
+    "uzbek": "Men sayr qilyapman.",
+    "category": "Leisure"
+  },
+  {
+    "english": "The park is beautiful.",
+    "uzbek": "Park chiroyli.",
+    "category": "Leisure"
+  },
+  {
+    "english": "There are many flowers.",
+    "uzbek": "Ko'p gullar bor.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I see birds.",
+    "uzbek": "Men qushlarni ko'raman.",
+    "category": "Leisure"
+  },
+  {
+    "english": "Let's play frisbee.",
+    "uzbek": "Frisbi o'ynaylik.",
+    "category": "Leisure"
+  },
+  {
+    "english": "That sounds fun.",
+    "uzbek": "Bu qiziq eshitiladi.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I am tired now.",
+    "uzbek": "Men endi charchadim.",
+    "category": "Leisure"
+  },
+  {
+    "english": "Let's go home.",
+    "uzbek": "Uyga boraylik.",
+    "category": "Leisure"
+  },
+  {
+    "english": "Today was a good day.",
+    "uzbek": "Bugun yaxshi kun edi.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I am going to bed.",
+    "uzbek": "Men yotaman.",
+    "category": "Leisure"
+  },
+  {
+    "english": "Good night.",
+    "uzbek": "Xayrli tun.",
+    "category": "Leisure"
+  },
+  {
+    "english": "I slept well.",
+    "uzbek": "Men yaxshi uxladim.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I had a dream.",
+    "uzbek": "Men tush ko'rdim.",
+    "category": "Sleep"
+  },
+  {
+    "english": "What did you dream?",
+    "uzbek": "Nima tush ko'rdingiz?",
+    "category": "Sleep"
+  },
+  {
+    "english": "I dreamed about flying.",
+    "uzbek": "Men uchish haqida tush ko'rdim.",
+    "category": "Sleep"
+  },
+  {
+    "english": "Dreams are strange.",
+    "uzbek": "Tushlar g'alati.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I wake up early.",
+    "uzbek": "Men erta turaman.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I wake up late.",
+    "uzbek": "Men kech turaman.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I need more sleep.",
+    "uzbek": "Menga ko'proq uyqu kerak.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I am not tired.",
+    "uzbek": "Men charchagan emasman.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I take a nap.",
+    "uzbek": "Men qisqa uyqu olaman.",
+    "category": "Sleep"
+  },
+  {
+    "english": "Naps are refreshing.",
+    "uzbek": "Qisqa uyqu tetiklantiradi.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I have insomnia.",
+    "uzbek": "Menda uyqusizlik bor.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I can't sleep.",
+    "uzbek": "Men uxlay olmayman.",
+    "category": "Sleep"
+  },
+  {
+    "english": "Count sheep.",
+    "uzbek": "Qo'zi sanang.",
+    "category": "Sleep"
+  },
+  {
+    "english": "Drink warm milk.",
+    "uzbek": "Issiq sut iching.",
+    "category": "Sleep"
+  },
+  {
+    "english": "I am brushing my teeth.",
+    "uzbek": "Men tishlarimni yuvayapman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I take a shower.",
+    "uzbek": "Men dush olaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I wash my face.",
+    "uzbek": "Men yuzimni yuvaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I comb my hair.",
+    "uzbek": "Men sochimni tarayman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I put on clothes.",
+    "uzbek": "Men kiyim kiyaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I wear jeans and a t-shirt.",
+    "uzbek": "Men jins va futbolka kiyaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I wear a dress.",
+    "uzbek": "Men ko'ylak kiyaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I wear shoes.",
+    "uzbek": "Men oyoq kiyim kiyaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I put on makeup.",
+    "uzbek": "Men bo'yanaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "Makeup takes time.",
+    "uzbek": "Bo'yanish vaqt oladi.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I shave.",
+    "uzbek": "Men soqol olaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I cut my hair.",
+    "uzbek": "Men sochimni kesaman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I go to the barber.",
+    "uzbek": "Men sartaroshga boraman.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I need a haircut.",
+    "uzbek": "Menga soch kesish kerak.",
+    "category": "Hygiene"
+  },
+  {
+    "english": "I am cooking dinner.",
+    "uzbek": "Men kechki ovqat paz bo'lyapman.",
+    "category": "Cooking"
+  },
+  {
+    "english": "What are you cooking?",
+    "uzbek": "Nima paz bo'lyapsiz?",
+    "category": "Cooking"
+  },
+  {
+    "english": "I am cooking soup.",
+    "uzbek": "Men sho'rpo paz bo'lyapman.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I need ingredients.",
+    "uzbek": "Menga ingredientlar kerak.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I have carrots and potatoes.",
+    "uzbek": "Menda sabzi va kartoshka bor.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I chop the vegetables.",
+    "uzbek": "Men sabzavotlarni kesaman.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I boil water.",
+    "uzbek": "Men suv qaynayman.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I add salt.",
+    "uzbek": "Men tuz qo'shaman.",
+    "category": "Cooking"
+  },
+  {
+    "english": "It smells good.",
+    "uzbek": "Xushbo'y hid keladi.",
+    "category": "Cooking"
+  },
+  {
+    "english": "Dinner is ready.",
+    "uzbek": "Kechki ovqat tayyor.",
+    "category": "Cooking"
+  },
+  {
+    "english": "Let's eat.",
+    "uzbek": "Ovqatlanaylik.",
+    "category": "Cooking"
+  },
+  {
+    "english": "It tastes delicious.",
+    "uzbek": "Tami mazali.",
+    "category": "Cooking"
+  },
+  {
+    "english": "I am cleaning the house.",
+    "uzbek": "Men uy tozalayapman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I vacuum the carpet.",
+    "uzbek": "Men gilamni changyutaman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I dust the furniture.",
+    "uzbek": "Men mebelni changdan tozalayman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I wash the dishes.",
+    "uzbek": "Men idishlarni yuvaman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I mop the floor.",
+    "uzbek": "Men polni sidiraman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "The house is clean.",
+    "uzbek": "Uy toza.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "Cleaning is hard work.",
+    "uzbek": "Tozalash qiyin ish.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I do laundry.",
+    "uzbek": "Men kir yuvaman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I put clothes in the washer.",
+    "uzbek": "Men kiyimlarni kir yuvish mashinasiga solaman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I hang clothes to dry.",
+    "uzbek": "Men kiyimlarni quritish uchun osaman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I iron the clothes.",
+    "uzbek": "Men kiyimlarni dazmolayman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I take out the trash.",
+    "uzbek": "Men axlatni tashlayman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "The trash is full.",
+    "uzbek": "Axlat to'lgan.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I recycle paper.",
+    "uzbek": "Men qog'ozni qayta ishlayman.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "Recycling is important.",
+    "uzbek": "Qayta ishlash muhim.",
+    "category": "Cleaning"
+  },
+  {
+    "english": "I am sick today.",
+    "uzbek": "Men bugun kasalman.",
+    "category": "Health"
+  },
+  {
+    "english": "I have a cold.",
+    "uzbek": "Menda shamollash bor.",
+    "category": "Health"
+  },
+  {
+    "english": "I have a fever.",
+    "uzbek": "Menda isitma bor.",
+    "category": "Health"
+  },
+  {
+    "english": "I cough.",
+    "uzbek": "Men yo'talayman.",
+    "category": "Health"
+  },
+  {
+    "english": "I sneeze.",
+    "uzbek": "Men aksiraman.",
+    "category": "Health"
+  },
+  {
+    "english": "I need medicine.",
+    "uzbek": "Menga dori kerak.",
+    "category": "Health"
+  },
+  {
+    "english": "I take pills.",
+    "uzbek": "Men tabletka ichaman.",
+    "category": "Health"
+  },
+  {
+    "english": "I rest in bed.",
+    "uzbek": "Men to'shakda dam olaman.",
+    "category": "Health"
+  },
+  {
+    "english": "I drink tea.",
+    "uzbek": "Men choy ichaman.",
+    "category": "Health"
+  },
+  {
+    "english": "Tea helps.",
+    "uzbek": "Choy yordam beradi.",
+    "category": "Health"
+  },
+  {
+    "english": "I feel better.",
+    "uzbek": "Men o'zimni yaxshi his qilaman.",
+    "category": "Health"
+  },
+  {
+    "english": "I am healthy.",
+    "uzbek": "Men sog'lomman.",
+    "category": "Health"
+  },
+  {
+    "english": "I exercise daily.",
+    "uzbek": "Men har kuni sport qilaman.",
+    "category": "Health"
+  },
+  {
+    "english": "Exercise is good for health.",
+    "uzbek": "Sport sog'liq uchun yaxshi.",
+    "category": "Health"
+  },
+  {
+    "english": "I eat healthy food.",
+    "uzbek": "Men sog'lom ovqat yeyman.",
+    "category": "Health"
+  },
+  {
+    "english": "Fruits and vegetables are good.",
+    "uzbek": "Meva va sabzavotlar yaxshi.",
+    "category": "Health"
+  },
+  {
+    "english": "I don't smoke.",
+    "uzbek": "Men chekmayman.",
+    "category": "Health"
+  },
+  {
+    "english": "Smoking is bad.",
+    "uzbek": "Chekish yomon.",
+    "category": "Health"
+  },
+  {
+    "english": "I go to the doctor.",
+    "uzbek": "Men shifokorga boraman.",
+    "category": "Health"
+  },
+  {
+    "english": "The doctor checks me.",
+    "uzbek": "Shifokor meni tekshiradi.",
+    "category": "Health"
+  },
+  {
+    "english": "I have an appointment.",
+    "uzbek": "Mening uchrashuvim bor.",
+    "category": "Health"
+  },
+  {
+    "english": "The waiting room is full.",
+    "uzbek": "Kutish xonasi to'lgan.",
+    "category": "Health"
+  },
+  {
+    "english": "The doctor prescribes medicine.",
+    "uzbek": "Shifokor dori buyuradi.",
+    "category": "Health"
+  },
+  {
+    "english": "I buy medicine at the pharmacy.",
+    "uzbek": "Men dorixonadan dori sotib olaman.",
+    "category": "Health"
+  },
+  {
+    "english": "I am allergic to pollen.",
+    "uzbek": "Menda gul changiga allergiya bor.",
+    "category": "Health"
+  },
+  {
+    "english": "Allergies are annoying.",
+    "uzbek": "Allergiyalar zerikarli.",
+    "category": "Health"
+  },
+  {
+    "english": "I wear glasses.",
+    "uzbek": "Men ko'zoynak taqaman.",
+    "category": "Health"
+  },
+  {
+    "english": "I have contacts.",
+    "uzbek": "Menda kontakt linzalar bor.",
+    "category": "Health"
+  },
+  {
+    "english": "I need new glasses.",
+    "uzbek": "Menga yangi ko'zoynak kerak.",
+    "category": "Health"
+  },
+  {
+    "english": "I see the eye doctor.",
+    "uzbek": "Men ko'z shifokoriga boraman.",
+    "category": "Health"
+  },
+  {
+    "english": "My vision is good.",
+    "uzbek": "Mening ko'rishim yaxshi.",
+    "category": "Health"
+  },
+  {
+    "english": "I have 20/20 vision.",
+    "uzbek": "Mening ko'rishim 20/20.",
+    "category": "Health"
+  },
+  {
+    "english": "I am learning English.",
+    "uzbek": "Men inglizcha o'rganayapman.",
+    "category": "Education"
+  },
+  {
+    "english": "English is useful.",
+    "uzbek": "Inglizcha foydali.",
+    "category": "Education"
+  },
+  {
+    "english": "I practice every day.",
+    "uzbek": "Men har kuni mashq qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "I watch English movies.",
+    "uzbek": "Men inglizcha filmlar ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "I listen to English songs.",
+    "uzbek": "Men inglizcha qo'shiqlar tinglayman.",
+    "category": "Education"
+  },
+  {
+    "english": "I read English books.",
+    "uzbek": "Men inglizcha kitoblar o'qiyman.",
+    "category": "Education"
+  },
+  {
+    "english": "I speak with native speakers.",
+    "uzbek": "Men ona tilida gapiruvchilar bilan gaplashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Speaking is important.",
+    "uzbek": "Gapirish muhim.",
+    "category": "Education"
+  },
+  {
+    "english": "I make mistakes.",
+    "uzbek": "Men xato qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mistakes help learning.",
+    "uzbek": "Xatolar o'rganishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I have a tutor.",
+    "uzbek": "Mening repetitorim bor.",
+    "category": "Education"
+  },
+  {
+    "english": "The tutor helps me.",
+    "uzbek": "Repetitor menga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I take English classes.",
+    "uzbek": "Men inglizcha darslar olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Classes are on Monday.",
+    "uzbek": "Darslar dushanba kuni.",
+    "category": "Education"
+  },
+  {
+    "english": "I learn grammar.",
+    "uzbek": "Men grammatika o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Grammar is hard.",
+    "uzbek": "Grammatika qiyin.",
+    "category": "Education"
+  },
+  {
+    "english": "I learn vocabulary.",
+    "uzbek": "Men lug'at o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Vocabulary is fun.",
+    "uzbek": "Lug'at qiziq.",
+    "category": "Education"
+  },
+  {
+    "english": "I write in English.",
+    "uzbek": "Men inglizcha yozaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Writing improves skills.",
+    "uzbek": "Yozish ko'nikmalarni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fluent in English.",
+    "uzbek": "Men inglizchani ravon gapiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Fluency takes time.",
+    "uzbek": "Ravonlik vaqt oladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I travel to English countries.",
+    "uzbek": "Men inglizcha mamlakatlarga sayohat qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Travel helps learning.",
+    "uzbek": "Sayohat o'rganishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I use language apps.",
+    "uzbek": "Men til ilovalaridan foydalanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Apps are convenient.",
+    "uzbek": "Ilovalar qulay.",
+    "category": "Education"
+  },
+  {
+    "english": "I watch English news.",
+    "uzbek": "Men inglizcha yangiliklar ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "News is informative.",
+    "uzbek": "Yangiliklar ma'lumotli.",
+    "category": "Education"
+  },
+  {
+    "english": "I join English groups.",
+    "uzbek": "Men inglizcha guruhlarga qo'shilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Groups are supportive.",
+    "uzbek": "Guruhlar qo'llab-quvvatlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "Learning English is rewarding.",
+    "uzbek": "Inglizcha o'rganish foydali.",
+    "category": "Education"
+  },
+  {
+    "english": "I am motivated.",
+    "uzbek": "Men motivatsiyali.",
+    "category": "Education"
+  },
+  {
+    "english": "Motivation is key.",
+    "uzbek": "Motivatsiya kalit.",
+    "category": "Education"
+  },
+  {
+    "english": "I set goals.",
+    "uzbek": "Men maqsad qo'yaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Goals help progress.",
+    "uzbek": "Maqsadlar taraqqiyotga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I track my progress.",
+    "uzbek": "Men o'z taraqqiyotimni kuzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Progress is slow.",
+    "uzbek": "Taraqqiyot sekin.",
+    "category": "Education"
+  },
+  {
+    "english": "I celebrate achievements.",
+    "uzbek": "Men yutuqlarni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Achievements are important.",
+    "uzbek": "Yutuqlar muhim.",
+    "category": "Education"
+  },
+  {
+    "english": "I enjoy learning.",
+    "uzbek": "Men o'rganishdan zavqlanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Learning is lifelong.",
+    "uzbek": "O'rganish umrbod.",
+    "category": "Education"
+  },
+  {
+    "english": "I recommend learning English.",
+    "uzbek": "Men inglizcha o'rganishni tavsiya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "English opens doors.",
+    "uzbek": "Inglizcha eshik ochadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am proud of my English.",
+    "uzbek": "Men o'z inglizcham bilan faxrlanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Pride comes from effort.",
+    "uzbek": "Faxr harakatdan keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I help others learn.",
+    "uzbek": "Men boshqalarga o'rganishga yordam beraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Teaching is rewarding.",
+    "uzbek": "O'qitish foydali.",
+    "category": "Education"
+  },
+  {
+    "english": "I share resources.",
+    "uzbek": "Men resurslarni baham ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "Resources are helpful.",
+    "uzbek": "Resurslar foydali.",
+    "category": "Education"
+  },
+  {
+    "english": "I attend English events.",
+    "uzbek": "Men inglizcha tadbirlarga qatnashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Events are fun.",
+    "uzbek": "Tadbirlar qiziq.",
+    "category": "Education"
+  },
+  {
+    "english": "I practice pronunciation.",
+    "uzbek": "Men talaffuzni mashq qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Pronunciation is important.",
+    "uzbek": "Talaffuz muhim.",
+    "category": "Education"
+  },
+  {
+    "english": "I record myself.",
+    "uzbek": "Men o'zimni yozib olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Recording helps improvement.",
+    "uzbek": "Yozib olish yaxshilanishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I listen to podcasts.",
+    "uzbek": "Men podkastlar tinglayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Podcasts are educational.",
+    "uzbek": "Podkastlar ta'limiy.",
+    "category": "Education"
+  },
+  {
+    "english": "I watch TED talks.",
+    "uzbek": "Men TED nutqlarini ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "TED talks are inspiring.",
+    "uzbek": "TED nutqlari ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I use flashcards.",
+    "uzbek": "Men fleshkartalardan foydalanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Flashcards help memory.",
+    "uzbek": "Fleshkartalar xotiraga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I play language games.",
+    "uzbek": "Men til o'yinlari o'ynayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Games make learning fun.",
+    "uzbek": "O'yinlar o'rganishni qiziq qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I have a language exchange partner.",
+    "uzbek": "Mening til almashish sherigim bor.",
+    "category": "Education"
+  },
+  {
+    "english": "Partners help practice.",
+    "uzbek": "Sheriklar mashq qilishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I write in a journal.",
+    "uzbek": "Men kundalik yozaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Journaling improves writing.",
+    "uzbek": "Kundalik yozish yozishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I challenge myself.",
+    "uzbek": "Men o'zimni sinayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Challenges build confidence.",
+    "uzbek": "Sinovlar ishonchni oshiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I stay consistent.",
+    "uzbek": "Men izchil bo'laman.",
+    "category": "Education"
+  },
+  {
+    "english": "Consistency leads to success.",
+    "uzbek": "Izchillik muvaffaqiyatga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I learn from mistakes.",
+    "uzbek": "Men xatolardan o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mistakes are lessons.",
+    "uzbek": "Xatolar saboq.",
+    "category": "Education"
+  },
+  {
+    "english": "I am patient.",
+    "uzbek": "Men sabrli.",
+    "category": "Education"
+  },
+  {
+    "english": "Patience is necessary.",
+    "uzbek": "Sabr kerak.",
+    "category": "Education"
+  },
+  {
+    "english": "I celebrate small wins.",
+    "uzbek": "Men kichik g'olibliklarni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Small wins motivate.",
+    "uzbek": "Kichik g'olibliklar motivatsiya beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I visualize success.",
+    "uzbek": "Men muvaffaqiyatni tasavvur qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Visualization helps.",
+    "uzbek": "Tasavvur yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I surround myself with English.",
+    "uzbek": "Men o'zimni inglizcha bilan o'rab olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Immersion is effective.",
+    "uzbek": "Immersion samarali.",
+    "category": "Education"
+  },
+  {
+    "english": "I change my phone language.",
+    "uzbek": "Men telefon tilini o'zgartiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Language change helps.",
+    "uzbek": "Til o'zgarishi yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I label things in English.",
+    "uzbek": "Men narsalarni inglizcha belgilayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Labels reinforce learning.",
+    "uzbek": "Belgilar o'rganishni mustahkamlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I think in English.",
+    "uzbek": "Men inglizcha o'ylayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Thinking in English is advanced.",
+    "uzbek": "Inglizcha o'ylash ilg'or.",
+    "category": "Education"
+  },
+  {
+    "english": "I am bilingual.",
+    "uzbek": "Men ikki tilli.",
+    "category": "Education"
+  },
+  {
+    "english": "Bilingualism is an asset.",
+    "uzbek": "Ikki tillilik boylik.",
+    "category": "Education"
+  },
+  {
+    "english": "I teach English.",
+    "uzbek": "Men inglizcha o'qitaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Teaching reinforces knowledge.",
+    "uzbek": "O'qitish bilimni mustahkamlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I volunteer for English events.",
+    "uzbek": "Men inglizcha tadbirlari uchun ko'ngilli bo'laman.",
+    "category": "Education"
+  },
+  {
+    "english": "Volunteering is fulfilling.",
+    "uzbek": "Ko'ngillilik qoniqarli.",
+    "category": "Education"
+  },
+  {
+    "english": "I create content in English.",
+    "uzbek": "Men inglizcha kontent yarataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Content creation is creative.",
+    "uzbek": "Kontent yaratish ijodiy.",
+    "category": "Education"
+  },
+  {
+    "english": "I blog in English.",
+    "uzbek": "Men inglizcha blog yozaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Blogging improves writing.",
+    "uzbek": "Blog yozish yozishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I vlog in English.",
+    "uzbek": "Men inglizcha vlog yuritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Vlogging improves speaking.",
+    "uzbek": "Vlog yuritish gapirishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I join online communities.",
+    "uzbek": "Men onlayn jamoalarga qo'shilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Communities provide support.",
+    "uzbek": "Jamoalar qo'llab-quvvatlash beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I attend webinars.",
+    "uzbek": "Men vebinarlarga qatnashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Webinars are informative.",
+    "uzbek": "Vebinarlar ma'lumotli.",
+    "category": "Education"
+  },
+  {
+    "english": "I follow English influencers.",
+    "uzbek": "Men inglizcha ta'sirchilarni kuzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Influencers inspire.",
+    "uzbek": "Ta'sirchilar ilhom beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I read English literature.",
+    "uzbek": "Men inglizcha adabiyot o'qiyman.",
+    "category": "Education"
+  },
+  {
+    "english": "Literature expands vocabulary.",
+    "uzbek": "Adabiyot lug'atni kengaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I watch English documentaries.",
+    "uzbek": "Men inglizcha hujjatli filmlar ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "Documentaries are educational.",
+    "uzbek": "Hujjatli filmlar ta'limiy.",
+    "category": "Education"
+  },
+  {
+    "english": "I listen to English audiobooks.",
+    "uzbek": "Men inglizcha audio kitoblar tinglayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Audiobooks are convenient.",
+    "uzbek": "Audio kitoblar qulay.",
+    "category": "Education"
+  },
+  {
+    "english": "I use translation tools.",
+    "uzbek": "Men tarjima vositalaridan foydalanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Tools help understanding.",
+    "uzbek": "Vositalar tushunishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I avoid over-reliance on tools.",
+    "uzbek": "Men vositalarga haddan tashqari tayanishdan qochaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Balance is important.",
+    "uzbek": "Muvozanat muhim.",
+    "category": "Education"
+  },
+  {
+    "english": "I set realistic goals.",
+    "uzbek": "Men real maqsadlar qo'yaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Realistic goals are achievable.",
+    "uzbek": "Real maqsadlar erishiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I track my learning.",
+    "uzbek": "Men o'rganishimni kuzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Tracking shows progress.",
+    "uzbek": "Kuzatish taraqqiyotni ko'rsatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I reflect on my learning.",
+    "uzbek": "Men o'rganishim haqida o'ylayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Reflection improves learning.",
+    "uzbek": "O'ylash o'rganishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I adapt my methods.",
+    "uzbek": "Men usullarimni moslashtiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Adaptation is key.",
+    "uzbek": "Moslashish kalit.",
+    "category": "Education"
+  },
+  {
+    "english": "I stay curious.",
+    "uzbek": "Men qiziquvchan bo'laman.",
+    "category": "Education"
+  },
+  {
+    "english": "Curiosity drives learning.",
+    "uzbek": "Qiziquvchanlik o'rganishni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I embrace challenges.",
+    "uzbek": "Men qiyinchiliklarni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Challenges build resilience.",
+    "uzbek": "Qiyinchiliklar chidamlilikni oshiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I celebrate progress.",
+    "uzbek": "Men taraqqiyotni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Celebration motivates.",
+    "uzbek": "Nishonlash motivatsiya beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "Learning English is a journey.",
+    "uzbek": "Inglizcha o'rganish sayohat.",
+    "category": "Education"
+  },
+  {
+    "english": "Journeys are rewarding.",
+    "uzbek": "Sayohatlar foydali.",
+    "category": "Education"
+  },
+  {
+    "english": "I am on the path to fluency.",
+    "uzbek": "Men ravonlik yo'lida.",
+    "category": "Education"
+  },
+  {
+    "english": "Fluency is achievable.",
+    "uzbek": "Ravonlik erishiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I inspire others.",
+    "uzbek": "Men boshqalarni ilhomlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Inspiration spreads.",
+    "uzbek": "Ilhom tarqaladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am grateful for learning.",
+    "uzbek": "Men o'rganish uchun minnatdorman.",
+    "category": "Education"
+  },
+  {
+    "english": "Gratitude enhances joy.",
+    "uzbek": "Minnatdorchilik quvonchni oshiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I commit to lifelong learning.",
+    "uzbek": "Men umrbod o'rganishga sodiqman.",
+    "category": "Education"
+  },
+  {
+    "english": "Lifelong learning is enriching.",
+    "uzbek": "Umrbod o'rganish boyitadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am an English learner.",
+    "uzbek": "Men inglizcha o'rganuvchiman.",
+    "category": "Education"
+  },
+  {
+    "english": "Learners are brave.",
+    "uzbek": "O'rganuvchilar jasur.",
+    "category": "Education"
+  },
+  {
+    "english": "I embrace my journey.",
+    "uzbek": "Men o'z sayohatimni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Journeys shape us.",
+    "uzbek": "Sayohatlar bizni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am proud of my efforts.",
+    "uzbek": "Men o'z harakatlarim bilan faxrlanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Efforts lead to growth.",
+    "uzbek": "Harakatlar o'sishga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I share my story.",
+    "uzbek": "Men o'z hikoyamni baham ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "Stories inspire others.",
+    "uzbek": "Hikoyalar boshqalarni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I connect with learners worldwide.",
+    "uzbek": "Men butun dunyo o'rganuvchilari bilan bog'lanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Connections enrich lives.",
+    "uzbek": "Bog'lanishlar hayotni boyitadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am part of a global community.",
+    "uzbek": "Men global jamoaning bir qismi.",
+    "category": "Education"
+  },
+  {
+    "english": "Communities empower.",
+    "uzbek": "Jamoalar kuch beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I learn from diverse cultures.",
+    "uzbek": "Men turli madaniyatlardan o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Diversity enriches learning.",
+    "uzbek": "Xilma-xillik o'rganishni boyitadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I appreciate linguistic diversity.",
+    "uzbek": "Men til xilma-xilligini qadrlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Diversity is beautiful.",
+    "uzbek": "Xilma-xillik chiroyli.",
+    "category": "Education"
+  },
+  {
+    "english": "I promote language learning.",
+    "uzbek": "Men til o'rganishni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Promotion spreads knowledge.",
+    "uzbek": "Targ'ib bilimni tarqatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I advocate for education.",
+    "uzbek": "Men ta'lim uchun himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Education changes lives.",
+    "uzbek": "Ta'lim hayotni o'zgartiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am committed to growth.",
+    "uzbek": "Men o'sishga sodiqman.",
+    "category": "Education"
+  },
+  {
+    "english": "Growth is continuous.",
+    "uzbek": "O'sish uzluksiz.",
+    "category": "Education"
+  },
+  {
+    "english": "I embrace change.",
+    "uzbek": "Men o'zgarishni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Change leads to improvement.",
+    "uzbek": "O'zgarish yaxshilanishga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am resilient.",
+    "uzbek": "Men chidamli.",
+    "category": "Education"
+  },
+  {
+    "english": "Resilience overcomes obstacles.",
+    "uzbek": "Chidamlilik to'siqlarni yengadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I persevere.",
+    "uzbek": "Men davom etaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Perseverance achieves goals.",
+    "uzbek": "Davomiylik maqsadlarga erishadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am determined.",
+    "uzbek": "Men qat'iy.",
+    "category": "Education"
+  },
+  {
+    "english": "Determination drives success.",
+    "uzbek": "Qat'iyat muvaffaqiyatni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am optimistic.",
+    "uzbek": "Men optimist.",
+    "category": "Education"
+  },
+  {
+    "english": "Optimism fuels progress.",
+    "uzbek": "Optimizm taraqqiyotni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I believe in myself.",
+    "uzbek": "Men o'zimga ishonaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Self-belief is powerful.",
+    "uzbek": "O'ziga ishonish kuchli.",
+    "category": "Education"
+  },
+  {
+    "english": "I am capable.",
+    "uzbek": "Men qodir.",
+    "category": "Education"
+  },
+  {
+    "english": "Capability grows with practice.",
+    "uzbek": "Qobiliyat mashq bilan o'sadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am learning every day.",
+    "uzbek": "Men har kuni o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Daily learning compounds.",
+    "uzbek": "Kundalik o'rganish ko'payadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building skills.",
+    "uzbek": "Men ko'nikmalar quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Skills open opportunities.",
+    "uzbek": "Ko'nikmalar imkoniyatlar ochadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am expanding my mind.",
+    "uzbek": "Men ongimni kengaytiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Expansion leads to wisdom.",
+    "uzbek": "Kengayish donolikka olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am cultivating curiosity.",
+    "uzbek": "Men qiziquvchanlikni o'stiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Curiosity sparks discovery.",
+    "uzbek": "Qiziquvchanlik kashfiyotni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am exploring new ideas.",
+    "uzbek": "Men yangi g'oyalarni o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Exploration broadens horizons.",
+    "uzbek": "O'rganish ufqlarni kengaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering creativity.",
+    "uzbek": "Men ijodkorlikni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Creativity enhances learning.",
+    "uzbek": "Ijodkorlik o'rganishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am developing critical thinking.",
+    "uzbek": "Men tanqidiy fikrlashni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Critical thinking solves problems.",
+    "uzbek": "Tanqidiy fikrlash muammolarni hal qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building confidence.",
+    "uzbek": "Men ishonchni quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Confidence enables action.",
+    "uzbek": "Ishochn harakatni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing challenges.",
+    "uzbek": "Men qiyinchiliklarni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Challenges build strength.",
+    "uzbek": "Qiyinchiliklar kuch quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am learning from failure.",
+    "uzbek": "Men muvaffaqiyatsizlikdan o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Failure teaches lessons.",
+    "uzbek": "Muvaffaqiyatsizlik saboq beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am adapting to change.",
+    "uzbek": "Men o'zgarishga moslashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Adaptation ensures survival.",
+    "uzbek": "Moslashish omon qolishni ta'minlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am committed to excellence.",
+    "uzbek": "Men mukammallikka sodiqman.",
+    "category": "Education"
+  },
+  {
+    "english": "Excellence requires effort.",
+    "uzbek": "Mukammallik harakat talab qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am striving for mastery.",
+    "uzbek": "Men mohirlikka intilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mastery comes with time.",
+    "uzbek": "Mohirlik vaqt bilan keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am investing in myself.",
+    "uzbek": "Men o'zimga sarmoya kiritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Investment yields returns.",
+    "uzbek": "Sarmoya daromad beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am transforming my life.",
+    "uzbek": "Men hayotimni o'zgartiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Transformation is possible.",
+    "uzbek": "O'zgarish mumkin.",
+    "category": "Education"
+  },
+  {
+    "english": "I am grateful for opportunities.",
+    "uzbek": "Men imkoniyatlar uchun minnatdorman.",
+    "category": "Education"
+  },
+  {
+    "english": "Gratitude attracts more.",
+    "uzbek": "Minnatdorchilik ko'proq jalb qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am living my dream.",
+    "uzbek": "Men orzumda yashayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Dreams become reality.",
+    "uzbek": "Orzular haqiqatga aylanadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am inspiring change.",
+    "uzbek": "Men o'zgarishni ilhomlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Inspiration creates impact.",
+    "uzbek": "Ilhom ta'sir yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am making a difference.",
+    "uzbek": "Men farq qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Differences shape the world.",
+    "uzbek": "Farqlar dunyoni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am empowered.",
+    "uzbek": "Men kuchli.",
+    "category": "Education"
+  },
+  {
+    "english": "Empowerment leads to action.",
+    "uzbek": "Kuch harakatga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am unstoppable.",
+    "uzbek": "Men to'xtatib bo'lmaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "Unstoppable achieves greatness.",
+    "uzbek": "To'xtatib bo'lmaydigan buyuklikka erishadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a lifelong learner.",
+    "uzbek": "Men umrbod o'rganuvchi.",
+    "category": "Education"
+  },
+  {
+    "english": "Lifelong learners thrive.",
+    "uzbek": "Umrbod o'rganuvchilar gullaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing the journey.",
+    "uzbek": "Men sayohatni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Journeys lead to destinations.",
+    "uzbek": "Sayohatlar manzillarga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am arriving at fluency.",
+    "uzbek": "Men ravonlikka yetib kelaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Fluency is the destination.",
+    "uzbek": "Ravonlik manzil.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fluent in English.",
+    "uzbek": "Men inglizchani ravon gapiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Fluency opens worlds.",
+    "uzbek": "Ravonlik dunyolarni ochadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am connected globally.",
+    "uzbek": "Men global ravishda bog'langan.",
+    "category": "Education"
+  },
+  {
+    "english": "Connections create opportunities.",
+    "uzbek": "Bog'lanishlar imkoniyatlar yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a global citizen.",
+    "uzbek": "Men global fuqaro.",
+    "category": "Education"
+  },
+  {
+    "english": "Global citizens unite.",
+    "uzbek": "Global fuqarolar birlashadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am proud of my bilingualism.",
+    "uzbek": "Men o'z ikki tilligim bilan faxrlanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Bilingualism is a superpower.",
+    "uzbek": "Ikki tillilik super kuch.",
+    "category": "Education"
+  },
+  {
+    "english": "I am sharing my knowledge.",
+    "uzbek": "Men bilimimni baham ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "Sharing multiplies knowledge.",
+    "uzbek": "Baham ko'rish bilimni ko'paytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am teaching others.",
+    "uzbek": "Men boshqalarga o'qitaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Teaching is noble.",
+    "uzbek": "O'qitish olijanob.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a mentor.",
+    "uzbek": "Men mentor.",
+    "category": "Education"
+  },
+  {
+    "english": "Mentors guide futures.",
+    "uzbek": "Mentorlar kelajakni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am learning from mentors.",
+    "uzbek": "Men mentorlardan o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mentors accelerate growth.",
+    "uzbek": "Mentorlar o'sishni tezlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am part of a learning community.",
+    "uzbek": "Men o'rganish jamoasining bir qismi.",
+    "category": "Education"
+  },
+  {
+    "english": "Communities foster growth.",
+    "uzbek": "Jamoalar o'sishni rivojlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am collaborating with peers.",
+    "uzbek": "Men tengdoshlarim bilan hamkorlik qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Collaboration enhances learning.",
+    "uzbek": "Hamkorlik o'rganishni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am exchanging ideas.",
+    "uzbek": "Men g'oyalarni almashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Idea exchange sparks innovation.",
+    "uzbek": "G'oya almashinu innovatsiyani yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am innovating in learning.",
+    "uzbek": "Men o'rganishda innovatsiya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Innovation revolutionizes education.",
+    "uzbek": "Innovatsiya ta'limni inqilob qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am using technology.",
+    "uzbek": "Men texnologiyadan foydalanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Technology empowers learners.",
+    "uzbek": "Texnologiya o'rganuvchilarni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am exploring AI tools.",
+    "uzbek": "Men AI vositalarini o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "AI tools accelerate learning.",
+    "uzbek": "AI vositalar o'rganishni tezlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am adapting to new methods.",
+    "uzbek": "Men yangi usullarga moslashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Adaptation ensures relevance.",
+    "uzbek": "Moslashish tegishlilikni ta'minlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am future-proofing my skills.",
+    "uzbek": "Men ko'nikmalarimni kelajakka tayyorlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Future-proofing secures success.",
+    "uzbek": "Kelajakka tayyorlash muvaffaqiyatni ta'minlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing digital learning.",
+    "uzbek": "Men raqamli o'rganishni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Digital learning is accessible.",
+    "uzbek": "Raqamli o'rganish qulay.",
+    "category": "Education"
+  },
+  {
+    "english": "I am learning anytime, anywhere.",
+    "uzbek": "Men istalgan vaqtda, istalgan joyda o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Flexibility maximizes potential.",
+    "uzbek": "Moslashuvchanlik potentsialni maksimallashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am self-directed.",
+    "uzbek": "Men o'z-o'zini boshqaraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Self-direction fosters independence.",
+    "uzbek": "O'z-o'zi boshqarish mustaqillikni rivojlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am accountable for my learning.",
+    "uzbek": "Men o'rganishim uchun javobgarman.",
+    "category": "Education"
+  },
+  {
+    "english": "Accountability drives results.",
+    "uzbek": "Javobgarlik natijalarni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am setting personal goals.",
+    "uzbek": "Men shaxsiy maqsadlar qo'yaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Personal goals motivate.",
+    "uzbek": "Shaxsiy maqsadlar motivatsiya beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am tracking my achievements.",
+    "uzbek": "Men yutuqlarimni kuzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Tracking builds momentum.",
+    "uzbek": "Kuzatish tezlikni oshiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am reflecting on progress.",
+    "uzbek": "Men taraqqiyot haqida o'ylayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Reflection guides improvement.",
+    "uzbek": "O'ylash yaxshilanishni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am celebrating milestones.",
+    "uzbek": "Men bosqichlarni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Milestones mark success.",
+    "uzbek": "Bosqichlar muvaffaqiyatni belgilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am maintaining balance.",
+    "uzbek": "Men muvozanatni saqlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Balance prevents burnout.",
+    "uzbek": "Muvozanat charchoqni oldini oladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am prioritizing health.",
+    "uzbek": "Men sog'liqni birinchi o'ringa qo'yaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Health supports learning.",
+    "uzbek": "Sog'liq o'rganishni qo'llab-quvvatlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am taking breaks.",
+    "uzbek": "Men tanaffus olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Breaks recharge energy.",
+    "uzbek": "Tanaffuslar energiyani qayta zaryadlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am practicing mindfulness.",
+    "uzbek": "Men ongni diqqat bilan bajaraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mindfulness enhances focus.",
+    "uzbek": "Ong diqqati kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am managing stress.",
+    "uzbek": "Men stressni boshqaraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Stress management aids learning.",
+    "uzbek": "Stress boshqaruvi o'rganishga yordam beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building resilience.",
+    "uzbek": "Men chidamlilik quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Resilience overcomes adversity.",
+    "uzbek": "Chidamlilik qiyinchiliklarni yengadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am cultivating positive habits.",
+    "uzbek": "Men ijobiy odatlarni o'stiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Habits shape destiny.",
+    "uzbek": "Odatlar taqdirni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am committed to daily practice.",
+    "uzbek": "Men kundalik mashqqa sodiqman.",
+    "category": "Education"
+  },
+  {
+    "english": "Daily practice builds mastery.",
+    "uzbek": "Kundalik mashq mohirlik quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am patient with myself.",
+    "uzbek": "Men o'zimga sabrli.",
+    "category": "Education"
+  },
+  {
+    "english": "Patience fosters growth.",
+    "uzbek": "Sabr o'sishni rivojlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am kind to myself.",
+    "uzbek": "Men o'zimga mehribon.",
+    "category": "Education"
+  },
+  {
+    "english": "Kindness nurtures learning.",
+    "uzbek": "Mehribonlik o'rganishni parvarishlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am forgiving of mistakes.",
+    "uzbek": "Men xatolarni kechiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Forgiveness enables progress.",
+    "uzbek": "Kechirish taraqqiyotni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing imperfection.",
+    "uzbek": "Men nomukammallikni qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Imperfection is human.",
+    "uzbek": "Nomukammallik insoniy.",
+    "category": "Education"
+  },
+  {
+    "english": "I am learning from everyone.",
+    "uzbek": "Men hammadan o'rganaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Everyone is a teacher.",
+    "uzbek": "Har kim o'qituvchi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am open to feedback.",
+    "uzbek": "Men fikr-mulohazalarga ochiqman.",
+    "category": "Education"
+  },
+  {
+    "english": "Feedback accelerates improvement.",
+    "uzbek": "Fikr-mulohaza yaxshilanishni tezlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am seeking constructive criticism.",
+    "uzbek": "Men konstruktiv tanqid izlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Criticism refines skills.",
+    "uzbek": "Tanqid ko'nikmalarni sazlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am grateful for teachers.",
+    "uzbek": "Men o'qituvchilarga minnatdorman.",
+    "category": "Education"
+  },
+  {
+    "english": "Teachers shape minds.",
+    "uzbek": "O'qituvchilar ongni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am honoring my educators.",
+    "uzbek": "Men o'qituvchilarimni hurmat qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Honor inspires excellence.",
+    "uzbek": "Hurmat mukammallikni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am paying it forward.",
+    "uzbek": "Men buni oldinga uzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Paying forward creates legacy.",
+    "uzbek": "Oldinga uzatish meros yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a beacon of knowledge.",
+    "uzbek": "Men bilim mayoqi.",
+    "category": "Education"
+  },
+  {
+    "english": "Beacons guide others.",
+    "uzbek": "Mayoqlar boshqalarni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am illuminating paths.",
+    "uzbek": "Men yo'llarni yoritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Illumination reveals possibilities.",
+    "uzbek": "Yoritish imkoniyatlarni ochadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am empowering learners.",
+    "uzbek": "Men o'rganuvchilarni kuchaytiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Empowerment creates change.",
+    "uzbek": "Kuchaytirish o'zgarish yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am transforming education.",
+    "uzbek": "Men ta'limni o'zgartiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Transformation inspires generations.",
+    "uzbek": "O'zgarish avlodlarni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a catalyst for learning.",
+    "uzbek": "Men o'rganish katalizatori.",
+    "category": "Education"
+  },
+  {
+    "english": "Catalysts spark reactions.",
+    "uzbek": "Katalizatorlar reaktsiyalarni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am igniting curiosity.",
+    "uzbek": "Men qiziquvchanlikni yoqaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Curiosity fuels discovery.",
+    "uzbek": "Qiziquvchanlik kashfiyotni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering wonder.",
+    "uzbek": "Men hayratni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Wonder drives exploration.",
+    "uzbek": "Hayrat o'rganishni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am nurturing potential.",
+    "uzbek": "Men potentsialni parvarishlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Potential becomes achievement.",
+    "uzbek": "Potentsial yutuqqa aylanadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am unlocking abilities.",
+    "uzbek": "Men qobiliyatlar qulfini ochaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Unlocking releases power.",
+    "uzbek": "Qulf ochish kuchni ozod qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am awakening minds.",
+    "uzbek": "Men onglarni uyg'otaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Awakening creates awareness.",
+    "uzbek": "Uyg'otish xabardorlik yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am expanding consciousness.",
+    "uzbek": "Men ongni kengaytiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Expansion leads to enlightenment.",
+    "uzbek": "Kengayish ma'rifatga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am connecting dots.",
+    "uzbek": "Men nuqtalarni bog'layman.",
+    "category": "Education"
+  },
+  {
+    "english": "Connecting creates understanding.",
+    "uzbek": "Bog'lash tushunish yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building bridges.",
+    "uzbek": "Men ko'priklar quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Bridges unite worlds.",
+    "uzbek": "Ko'priklar dunyolarni birlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering unity.",
+    "uzbek": "Men birlikni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Unity strengthens communities.",
+    "uzbek": "Birlik jamoalarni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am promoting peace.",
+    "uzbek": "Men tinchlikni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Peace enables learning.",
+    "uzbek": "Tinchlik o'rganishni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am advocating for equality.",
+    "uzbek": "Men tenglik uchun himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Equality empowers all.",
+    "uzbek": "Tenglik hammadan kuch beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am championing diversity.",
+    "uzbek": "Men xilma-xillikni chempion qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Diversity enriches humanity.",
+    "uzbek": "Xilma-xillik insoniyatni boyitadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am celebrating differences.",
+    "uzbek": "Men farqlarni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Celebration fosters inclusion.",
+    "uzbek": "Nishonlash inklyuzivlikni rivojlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building inclusive spaces.",
+    "uzbek": "Men inklyuziv joylar quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Inclusive spaces welcome all.",
+    "uzbek": "Inklyuziv joylar hammadan kutib oladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am promoting accessibility.",
+    "uzbek": "Men qulaylikni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Accessibility removes barriers.",
+    "uzbek": "Qulaylik to'siqlarni olib tashlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am ensuring equity.",
+    "uzbek": "Men adolatni ta'minlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Equity creates fairness.",
+    "uzbek": "Adolat adolatlilik yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fighting for justice.",
+    "uzbek": "Men adolat uchun kurashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Justice protects rights.",
+    "uzbek": "Adolat huquqlarni himoya qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am upholding human rights.",
+    "uzbek": "Men inson huquqlarini himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Rights enable freedom.",
+    "uzbek": "Huquqlar erkinlikni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am advocating for education.",
+    "uzbek": "Men ta'lim uchun himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Education is a right.",
+    "uzbek": "Ta'lim huquq.",
+    "category": "Education"
+  },
+  {
+    "english": "I am ensuring quality education.",
+    "uzbek": "Men sifatli ta'limni ta'minlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Quality education empowers.",
+    "uzbek": "Sifatli ta'lim kuch beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am investing in futures.",
+    "uzbek": "Men kelajaklarga sarmoya kiritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Investment in education pays dividends.",
+    "uzbek": "Ta'limga sarmoya dividend beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am shaping tomorrow.",
+    "uzbek": "Men ertani shakllantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Education shapes the future.",
+    "uzbek": "Ta'lim kelajakni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am a guardian of knowledge.",
+    "uzbek": "Men bilim qo'riqchisi.",
+    "category": "Education"
+  },
+  {
+    "english": "Guardians protect wisdom.",
+    "uzbek": "Qo'riqchilar donolikni himoya qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am preserving heritage.",
+    "uzbek": "Men merosni saqlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Heritage connects generations.",
+    "uzbek": "Meros avlodlarni bog'laydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am honoring traditions.",
+    "uzbek": "Men an'analarni hurmat qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Traditions ground identity.",
+    "uzbek": "An'analar identitetni mustahkamlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing innovation.",
+    "uzbek": "Men innovatsiyani qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Innovation drives progress.",
+    "uzbek": "Innovatsiya taraqqiyotni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am balancing tradition and modernity.",
+    "uzbek": "Men an'ana va zamonaviylikni muvozanatlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Balance creates harmony.",
+    "uzbek": "Muvozanat garmoniya yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering critical thinking.",
+    "uzbek": "Men tanqidiy fikrlashni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Critical thinking empowers citizens.",
+    "uzbek": "Tanqidiy fikrlash fuqarolarni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am encouraging creativity.",
+    "uzbek": "Men ijodkorlikni rag'batlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Creativity solves problems.",
+    "uzbek": "Ijodkorlik muammolarni hal qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am promoting collaboration.",
+    "uzbek": "Men hamkorlikni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Collaboration amplifies impact.",
+    "uzbek": "Hamkorlik ta'sirni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building networks.",
+    "uzbek": "Men tarmoqlar quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Networks expand reach.",
+    "uzbek": "Tarmoqlar yetishni kengaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am creating opportunities.",
+    "uzbek": "Men imkoniyatlar yarataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Opportunities change lives.",
+    "uzbek": "Imkoniyatlar hayotni o'zgartiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am opening doors.",
+    "uzbek": "Men eshiklar ochaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Open doors lead to success.",
+    "uzbek": "Ochiq eshiklar muvaffaqiyatga olib keladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am lighting paths.",
+    "uzbek": "Men yo'llarni yoritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Light guides the way.",
+    "uzbek": "Yorug'lik yo'lni ko'rsatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am inspiring dreams.",
+    "uzbek": "Men orzularni ilhomlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Dreams fuel ambition.",
+    "uzbek": "Orzular ambitsiyani yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am nurturing aspirations.",
+    "uzbek": "Men intilishlarni parvarishlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Aspirations drive achievement.",
+    "uzbek": "Intilishlar yutuqni haydaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am cultivating excellence.",
+    "uzbek": "Men mukammallikni o'stiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Excellence inspires emulation.",
+    "uzbek": "Mukammallik taqlidni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am setting standards.",
+    "uzbek": "Men standartlar qo'yaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Standards elevate quality.",
+    "uzbek": "Standartlar sifatni oshiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am leading by example.",
+    "uzbek": "Men namunali yetakchilik qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Example motivates followers.",
+    "uzbek": "Namuna izdoshlarni motivatsiya qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am mentoring the next generation.",
+    "uzbek": "Men keyingi avlodni mentorlik qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Mentoring transfers wisdom.",
+    "uzbek": "Mentorlik donolikni uzatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am passing the torch.",
+    "uzbek": "Men mash'alni uzataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Torch illuminates futures.",
+    "uzbek": "Mash'al kelajaklarni yoritadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am ensuring continuity.",
+    "uzbek": "Men uzluksizlikni ta'minlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Continuity preserves progress.",
+    "uzbek": "Uzluksizlik taraqqiyotni saqlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am safeguarding knowledge.",
+    "uzbek": "Men bilimni himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Safeguarding enables legacy.",
+    "uzbek": "Himoya qilish merosni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am archiving wisdom.",
+    "uzbek": "Men donolikni arxivlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Archiving preserves history.",
+    "uzbek": "Arxivlash tarixni saqlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am documenting journeys.",
+    "uzbek": "Men sayohatlarni hujjatlashtiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Documentation inspires others.",
+    "uzbek": "Hujjatlashtirish boshqalarni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am sharing stories.",
+    "uzbek": "Men hikoyalarni baham ko'raman.",
+    "category": "Education"
+  },
+  {
+    "english": "Stories connect hearts.",
+    "uzbek": "Hikoyalar qalblarni bog'laydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am celebrating successes.",
+    "uzbek": "Men muvaffaqiyatlarni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Celebration spreads joy.",
+    "uzbek": "Nishonlash quvonchni tarqatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am acknowledging efforts.",
+    "uzbek": "Men harakatlarni tan olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Acknowledgment builds confidence.",
+    "uzbek": "Tan olish ishonchni quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am recognizing achievements.",
+    "uzbek": "Men yutuqlarni tan olaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Recognition motivates excellence.",
+    "uzbek": "Tan olish mukammallikni motivatsiya qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering a culture of learning.",
+    "uzbek": "Men o'rganish madaniyatini rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Culture of learning thrives.",
+    "uzbek": "O'rganish madaniyati gullaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am creating learning environments.",
+    "uzbek": "Men o'rganish muhitlarini yarataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Environments support growth.",
+    "uzbek": "Muhitlar o'sishni qo'llab-quvvatlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am designing experiences.",
+    "uzbek": "Men tajribalarni loyihalashtiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Experiences create memories.",
+    "uzbek": "Tajribalar xotiralarni yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am crafting curricula.",
+    "uzbek": "Men o'quv dasturlarini yarataman.",
+    "category": "Education"
+  },
+  {
+    "english": "Curricula guide learning.",
+    "uzbek": "O'quv dasturlari o'rganishni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am developing resources.",
+    "uzbek": "Men resurslarni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Resources empower educators.",
+    "uzbek": "Resurslar o'qituvchilarni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am innovating pedagogy.",
+    "uzbek": "Men pedagogikani innovatsiya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Innovation transforms teaching.",
+    "uzbek": "Innovatsiya o'qitishni o'zgartiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am embracing technology.",
+    "uzbek": "Men texnologiyani qabul qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Technology enhances access.",
+    "uzbek": "Texnologiya qulaylikni yaxshilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am leveraging AI.",
+    "uzbek": "Men AI dan foydalanaman.",
+    "category": "Education"
+  },
+  {
+    "english": "AI personalizes learning.",
+    "uzbek": "AI o'rganishni shaxsiylashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am integrating multimedia.",
+    "uzbek": "Men multimedia integratsiya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Multimedia engages learners.",
+    "uzbek": "Multimedia o'rganuvchilarni jalb qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am promoting interactive learning.",
+    "uzbek": "Men interaktiv o'rganishni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Interactive learning is effective.",
+    "uzbek": "Interaktiv o'rganish samarali.",
+    "category": "Education"
+  },
+  {
+    "english": "I am encouraging project-based learning.",
+    "uzbek": "Men loyihaviy o'rganishni rag'batlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Project-based learning builds skills.",
+    "uzbek": "Loyihaviy o'rganish ko'nikmalar quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering inquiry-based learning.",
+    "uzbek": "Men so'rovga asoslangan o'rganishni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Inquiry sparks curiosity.",
+    "uzbek": "So'rov qiziquvchanlikni yoqadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am supporting differentiated instruction.",
+    "uzbek": "Men farqlashtirilgan o'qitishni qo'llab-quvvatlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Differentiated instruction meets needs.",
+    "uzbek": "Farqlashtirilgan o'qitish ehtiyojlarni qondiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am assessing progress.",
+    "uzbek": "Men taraqqiyotni baholayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Assessment guides instruction.",
+    "uzbek": "Baholash o'qitishni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am providing feedback.",
+    "uzbek": "Men fikr-mulohaza beraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Feedback promotes growth.",
+    "uzbek": "Fikr-mulohaza o'sishni targ'ib qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am celebrating diversity.",
+    "uzbek": "Men xilma-xillikni nishonlayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Diversity strengthens education.",
+    "uzbek": "Xilma-xillik ta'limni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am promoting inclusion.",
+    "uzbek": "Men inklyuzivlikni targ'ib qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Inclusion benefits all.",
+    "uzbek": "Inklyuzivlik hammadan foyda beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am advocating for equity.",
+    "uzbek": "Men adolat uchun himoya qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Equity ensures fairness.",
+    "uzbek": "Adolat adolatlilikni ta'minlaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fighting educational disparities.",
+    "uzbek": "Men ta'limdagi tafovutlarga qarshi kurashaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Fighting disparities creates equality.",
+    "uzbek": "Tafovutlarga qarshi kurash tenglik yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am bridging gaps.",
+    "uzbek": "Men bo'shliqlarni to'ldiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Bridging gaps unites communities.",
+    "uzbek": "Bo'shliqlarni to'ldirish jamoalarni birlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am expanding access.",
+    "uzbek": "Men qulaylikni kengaytiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Access empowers learners.",
+    "uzbek": "Qulaylik o'rganuvchilarni kuchaytiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am democratizing education.",
+    "uzbek": "Men ta'limni demokratlashtiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Democratization liberates minds.",
+    "uzbek": "Demokratlashtirish onglarni ozod qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am revolutionizing learning.",
+    "uzbek": "Men o'rganishni inqilob qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Revolution creates new possibilities.",
+    "uzbek": "Inqilob yangi imkoniyatlar yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am envisioning the future.",
+    "uzbek": "Men kelajakni tasavvur qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Vision shapes reality.",
+    "uzbek": "Tasavvur haqiqatni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am pioneering change.",
+    "uzbek": "Men o'zgarishni pionerlik qilaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Pioneering inspires followers.",
+    "uzbek": "Pionerlik izdoshlarni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am leading the charge.",
+    "uzbek": "Men hujumni yetaklayman.",
+    "category": "Education"
+  },
+  {
+    "english": "Leading creates momentum.",
+    "uzbek": "Yetaklash tezlik yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am transforming society.",
+    "uzbek": "Men jamiyatni o'zgartiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Transformation builds better worlds.",
+    "uzbek": "O'zgarish yaxshiroq dunyolar quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am educating for peace.",
+    "uzbek": "Men tinchlik uchun ta'lim beraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Education for peace heals divisions.",
+    "uzbek": "Tinchlik uchun ta'lim bo'linishlarni davolaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am fostering global citizenship.",
+    "uzbek": "Men global fuqarolikni rivojlantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Global citizenship unites humanity.",
+    "uzbek": "Global fuqarolik insoniyatni birlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am cultivating empathy.",
+    "uzbek": "Men hamdardlikni o'stiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Empathy builds compassion.",
+    "uzbek": "Hamdardlik rahmdillik quradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am teaching tolerance.",
+    "uzbek": "Men bag'rikenglikni o'qitaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Tolerance promotes harmony.",
+    "uzbek": "Bag'rikenglik garmoniyani targ'ib qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am instilling values.",
+    "uzbek": "Men qadriyatlarni singdiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Values guide behavior.",
+    "uzbek": "Qadriyatlar xatti-harakatlarni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am shaping character.",
+    "uzbek": "Men xarakterni shakllantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Character defines legacy.",
+    "uzbek": "Xarakter merosni belgilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am molding leaders.",
+    "uzbek": "Men yetakchilarni shakllantiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Leaders inspire change.",
+    "uzbek": "Yetakchilar o'zgarishni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am empowering youth.",
+    "uzbek": "Men yoshlarni kuchaytiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Empowered youth shape futures.",
+    "uzbek": "Kuchaytirilgan yoshlar kelajaklarni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am investing in potential.",
+    "uzbek": "Men potentsialga sarmoya kiritaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Investment in potential yields greatness.",
+    "uzbek": "Potentsialga sarmoya buyuklik beradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am unlocking futures.",
+    "uzbek": "Men kelajaklarni ochaman.",
+    "category": "Education"
+  },
+  {
+    "english": "Unlocked futures create hope.",
+    "uzbek": "Ochiq kelajaklar umid yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am building legacies.",
+    "uzbek": "Men meros quraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Legacies inspire generations.",
+    "uzbek": "Meroslar avlodlarni ilhomlantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am leaving a mark.",
+    "uzbek": "Men iz qoldiraman.",
+    "category": "Education"
+  },
+  {
+    "english": "Marks create history.",
+    "uzbek": "Izlar tarix yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am making history.",
+    "uzbek": "Men tarix yarataman.",
+    "category": "Education"
+  },
+  {
+    "english": "History remembers impact.",
+    "uzbek": "Tarix ta'sirni eslaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the architect of change.",
+    "uzbek": "Men o'zgarish me'mori.",
+    "category": "Education"
+  },
+  {
+    "english": "Architects design better worlds.",
+    "uzbek": "Me'morlar yaxshiroq dunyolar loyihalashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the catalyst of progress.",
+    "uzbek": "Men taraqqiyot katalizatori.",
+    "category": "Education"
+  },
+  {
+    "english": "Catalysts accelerate evolution.",
+    "uzbek": "Katalizatorlar evolyutsiyani tezlashtiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the beacon of hope.",
+    "uzbek": "Men umid mayoqi.",
+    "category": "Education"
+  },
+  {
+    "english": "Beacons light the path.",
+    "uzbek": "Mayoqlar yo'lni yoritadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the guardian of dreams.",
+    "uzbek": "Men orzular qo'riqchisi.",
+    "category": "Education"
+  },
+  {
+    "english": "Guardians protect aspirations.",
+    "uzbek": "Qo'riqchilar intilishlarni himoya qiladi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the nurturer of potential.",
+    "uzbek": "Men potentsial parvarishchisi.",
+    "category": "Education"
+  },
+  {
+    "english": "Nurturers cultivate greatness.",
+    "uzbek": "Parvarishchilar buyuklikni o'stiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the weaver of futures.",
+    "uzbek": "Men kelajak to'quvchisi.",
+    "category": "Education"
+  },
+  {
+    "english": "Weavers create tapestries.",
+    "uzbek": "To'quvchilar gobelenlar yaratadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the sower of seeds.",
+    "uzbek": "Men urug' sepuvchi.",
+    "category": "Education"
+  },
+  {
+    "english": "Sowers harvest abundance.",
+    "uzbek": "Sepuvchilar mo'l-ko'lni yig'adi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the builder of bridges.",
+    "uzbek": "Men ko'prik quruvchi.",
+    "category": "Education"
+  },
+  {
+    "english": "Builders connect worlds.",
+    "uzbek": "Quruvchilar dunyolarni bog'laydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the light in darkness.",
+    "uzbek": "Men zulmatdagi yorug'lik.",
+    "category": "Education"
+  },
+  {
+    "english": "Light dispels ignorance.",
+    "uzbek": "Yorug'lik nodonlikni tarqatadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the force of change.",
+    "uzbek": "Men o'zgarish kuchi.",
+    "category": "Education"
+  },
+  {
+    "english": "Forces shape destinies.",
+    "uzbek": "Kuchlar taqdirni shakllantiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the voice of reason.",
+    "uzbek": "Men aql ovozi.",
+    "category": "Education"
+  },
+  {
+    "english": "Voices guide decisions.",
+    "uzbek": "Ovozlar qarorlarni yo'naltiradi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the heart of compassion.",
+    "uzbek": "Men rahmdillik qalbi.",
+    "category": "Education"
+  },
+  {
+    "english": "Hearts heal wounds.",
+    "uzbek": "Qalblar yaralarni davolaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the soul of wisdom.",
+    "uzbek": "Men donolik ruhi.",
+    "category": "Education"
+  },
+  {
+    "english": "Souls transcend boundaries.",
+    "uzbek": "Ruhlar chegaralarni kesib o'tadi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am the essence of learning.",
+    "uzbek": "Men o'rganish mohiyati.",
+    "category": "Education"
+  },
+  {
+    "english": "Essence defines purpose.",
+    "uzbek": "Mohiyat maqsadni belgilaydi.",
+    "category": "Education"
+  },
+  {
+    "english": "I am eternal education.",
+    "uzbek": "Men abadiy ta'lim.",
+    "category": "Education"
+  },
+  {
+    "english": "Eternal education evolves humanity.",
+    "uzbek": "Abadiy ta'lim insoniyatni evolyutsiya qiladi.",
+    "category": "Education"
+  }
+]

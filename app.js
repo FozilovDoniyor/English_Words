@@ -259,7 +259,13 @@ function selectRandomItem() {
     return null;
   }
 
-  const weighted = words.map((item) => {
+  // Filter out words with streak >= 10
+  const availableWords = words.filter(item => item.streak < 10);
+
+  // If no available words, use all words (to avoid getting stuck)
+  const pool = availableWords.length > 0 ? availableWords : words;
+
+  const weighted = pool.map((item) => {
     const base = 1;
     const priority = base + item.wrongCount * 2 + Math.max(0, 3 - item.streak);
     const weight = Math.max(1, priority);

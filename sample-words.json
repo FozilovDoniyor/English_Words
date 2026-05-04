@@ -1,0 +1,137 @@
+[
+  {
+    "english": "Hello",
+    "uzbek": "Salom",
+    "category": "Greetings"
+  },
+  {
+    "english": "How are you?",
+    "uzbek": "Qalay siz?",
+    "category": "Greetings"
+  },
+  {
+    "english": "Thank you",
+    "uzbek": "Rahmat",
+    "category": "Greetings"
+  },
+  {
+    "english": "Goodbye",
+    "uzbek": "Xayr",
+    "category": "Greetings"
+  },
+  {
+    "english": "Please",
+    "uzbek": "Iltimos",
+    "category": "Greetings"
+  },
+  {
+    "english": "Water",
+    "uzbek": "Suv",
+    "category": "Food & Drink"
+  },
+  {
+    "english": "Bread",
+    "uzbek": "Non",
+    "category": "Food & Drink"
+  },
+  {
+    "english": "Apple",
+    "uzbek": "Olma",
+    "category": "Food & Drink"
+  },
+  {
+    "english": "I am hungry",
+    "uzbek": "Men ochman",
+    "category": "Food & Drink"
+  },
+  {
+    "english": "Can I have the menu?",
+    "uzbek": "Menga menyu berasizmi?",
+    "category": "Food & Drink"
+  },
+  {
+    "english": "Where is the train station?",
+    "uzbek": "Poezd vokzali qayerda?",
+    "category": "Travel"
+  },
+  {
+    "english": "How much does it cost?",
+    "uzbek": "Qancha turadi?",
+    "category": "Travel"
+  },
+  {
+    "english": "I need a taxi",
+    "uzbek": "Menga taksi kerak",
+    "category": "Travel"
+  },
+  {
+    "english": "What time is it?",
+    "uzbek": "Soat nechchi?",
+    "category": "Travel"
+  },
+  {
+    "english": "Excuse me",
+    "uzbek": "Kechirasiz",
+    "category": "Common Phrases"
+  },
+  {
+    "english": "I don't understand",
+    "uzbek": "Men tushunmayman",
+    "category": "Common Phrases"
+  },
+  {
+    "english": "Can you help me?",
+    "uzbek": "Menga yordam bera olasizmi?",
+    "category": "Common Phrases"
+  },
+  {
+    "english": "I love you",
+    "uzbek": "Men seni sevaman",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am happy",
+    "uzbek": "Men baxtliman",
+    "category": "Emotions"
+  },
+  {
+    "english": "I am tired",
+    "uzbek": "Men charchadim",
+    "category": "Emotions"
+  },
+  {
+    "english": "My name is...",
+    "uzbek": "Mening ismim...",
+    "category": "Introductions"
+  },
+  {
+    "english": "Nice to meet you",
+    "uzbek": "Siz bilan tanishganimdan xursandman",
+    "category": "Introductions"
+  },
+  {
+    "english": "Where are you from?",
+    "uzbek": "Siz qayerdansiz?",
+    "category": "Introductions"
+  },
+  {
+    "english": "I am from Uzbekistan",
+    "uzbek": "Men O'zbekistondanman",
+    "category": "Introductions"
+  },
+  {
+    "english": "What is your job?",
+    "uzbek": "Sizning ishingiz nima?",
+    "category": "Work"
+  },
+  {
+    "english": "I am a student",
+    "uzbek": "Men talabaman",
+    "category": "Work"
+  },
+  {
+    "english": "I work in an office",
+    "uzbek": "Men ofisda ishlayman",
+    "category": "Work"
+  }
+]

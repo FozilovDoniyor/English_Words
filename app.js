@@ -1,7 +1,222 @@
-const STORAGE_KEY = 'english-uzbek-words';
-const STATS_KEY = 'english-uzbek-stats';
+const STORAGE_KEY = 'english-vocab-words';
+const STATS_KEY = 'english-vocab-stats';
 
 const DEFAULT_WORDS = [];
+
+const translations = {
+  en: {
+    siteTitle: 'English Words Practice',
+    siteDescription: 'Add, save and repeat words with ease.',
+    toggleLight: 'Light mode',
+    toggleDark: 'Dark mode',
+    tabAdd: 'Add Phrase',
+    tabRepeat: 'Repeat',
+    addHeading: 'Add a new phrase or word',
+    englishLabel: 'English text',
+    translationLabel: 'Translation',
+    categoryLabel: 'Category',
+    englishPlaceholder: 'English word or phrase',
+    translationPlaceholder: 'Translation',
+    categorySelect: 'Select',
+    submitBtn: 'Save',
+    filterCategoryLabel: 'Category',
+    allCategories: 'All categories',
+    showFavorites: 'Show favorites',
+    showAllWords: 'Show all',
+    favoriteBtn: '★',
+    favoritedBtn: '★ Favorited',
+    categoryDaily: 'Daily',
+    categoryWork: 'Work',
+    categoryTravel: 'Travel',
+    categoryEducation: 'Education',
+    categoryOther: 'Other',
+    importHeading: 'Import/Export',
+    importWarning: 'Warning: clearing browser data also deletes saved entries. Export your JSON first.',
+    exportBtn: 'Export words (JSON)',
+    importBtn: 'Import words (JSON)',
+    savedHeading: 'Saved words',
+    searchPlaceholder: 'Search...',
+    emptyWordList: 'No words added yet.',
+    repeatHeading: 'Repeat practice',
+    startPractice: 'Start practice',
+    questionLabel: 'Question:',
+    answerLabel: 'Answer:',
+    speakBtn: '🔊 Speak',
+    showAnswerBtn: 'Show answer',
+    correctBtn: 'Correct',
+    wrongBtn: 'Wrong',
+    directionEnToUz: 'English to translation',
+    directionUzToEn: 'Translation to English',
+    repeatInfo: 'Learned: {count} times in a row',
+    statsHeading: 'Statistics',
+    totalLabel: 'Total words',
+    correctLabel: '✅ Correct answers',
+    wrongLabel: '❌ Wrong answers',
+    dailyLabel: '📅 Today correct',
+    editBtn: 'Edit',
+    deleteBtn: 'Delete',
+    categoryLabelList: 'Category:',
+    correctText: 'Correct',
+    wrongText: 'Wrong',
+    streakLabel: 'Streak',
+    dailyGoalLabel: 'Daily goal (words):',
+    setDailyGoalBtn: 'Set goal',
+    fillBothFields: 'Please fill in both fields.',
+    savedMessage: 'Word saved.',
+    deleteConfirm: 'Are you sure you want to delete this word?',
+    deleteSuccess: 'Word deleted.',
+    importErrorPrefix: 'Import error: ',
+    importedSuccess: '{count} new words imported.',
+    exportNoWords: 'No words to export.',
+    exportSuccess: 'Words exported successfully.',
+    addFirstWordError: 'Please add a word first.',
+    dailyGoalSet: 'Daily goal set.',
+    goalInvalid: 'Goal must be greater than 0.',
+    browserNoSpeech: 'Your browser does not support voice pronunciation.',
+  },
+  uz: {
+    siteTitle: "Inglizcha So'zlar Amaliyoti",
+    siteDescription: "So'z qo'shish, saqlash va takrorlash uchun sayt.",
+    toggleLight: 'Kunduzgi rejim',
+    toggleDark: 'Tungi rejim',
+    tabAdd: 'Gap qoʻshish',
+    tabRepeat: 'Takrorlash',
+    addHeading: 'Yangi gap yoki soʻz qoʻshish',
+    englishLabel: 'Inglizcha matn',
+    translationLabel: 'Tarjima',
+    categoryLabel: 'Kategoriya',
+    englishPlaceholder: 'English word or phrase',
+    translationPlaceholder: 'Tarjima',
+    categorySelect: 'Tanlang',
+    submitBtn: 'Saqlash',
+    filterCategoryLabel: 'Kategoriya',
+    categoryDaily: 'Kundalik',
+    categoryWork: 'Ish',
+    categoryTravel: 'Sayohat',
+    categoryEducation: 'Taʼlim',
+    categoryOther: 'Boshqa',
+    allCategories: 'Barcha kategoriyalar',
+    showFavorites: 'Sevimlilar',
+    showAllWords: 'Hammasini ko‘rsatish',
+    favoriteBtn: '★',
+    favoritedBtn: '★ Sevimli',
+    importHeading: 'Import/Export',
+    importWarning: 'Ogohlantirish: brauzer maʼlumotlarini tozalash saqlangan maʼlumotlarni ham olib tashlaydi. Avvalo JSON-ni eksport qiling.',
+    exportBtn: 'Soʻzlarni eksport qilish (JSON)',
+    importBtn: 'Soʻzlarni import qilish (JSON)',
+    savedHeading: 'Saqlangan soʻzlar',
+    searchPlaceholder: 'Qidiruv...',
+    emptyWordList: 'Hozircha hech narsa qoʻshilmagan.',
+    repeatHeading: 'Takrorlash',
+    startPractice: 'Boshlash',
+    questionLabel: 'Savol:',
+    answerLabel: 'Javob:',
+    speakBtn: '🔊 Oʻqish',
+    showAnswerBtn: 'Tarjimani koʻrsatish',
+    correctBtn: 'Toʻgʻri',
+    wrongBtn: 'Xato',
+    directionEnToUz: 'Inglizchadan tarjimaga',
+    directionUzToEn: 'Tarjimadan inglizchaga',
+    repeatInfo: 'Oʻrganilgan: {count} marta ketma-ket',
+    statsHeading: 'Statistika',
+    totalLabel: 'Umumiy soʻz',
+    correctLabel: '✅ Toʻgʻri javoblar',
+    wrongLabel: '❌ Notoʻgʻri javoblar',
+    dailyLabel: '📅 Bugun toʻgʻri',
+    editBtn: 'Tahrirlash',
+    deleteBtn: 'Oʻchirish',
+    categoryLabelList: 'Kategoriya:',
+    correctText: 'Toʻgʻri',
+    wrongText: 'Xato',
+    streakLabel: 'Ketma-ket',
+    dailyGoalLabel: 'Kunlik maqsad (soʻz):',
+    setDailyGoalBtn: 'Oʻrnatish',
+    fillBothFields: 'Ikkala maydonni ham toʻldiring.',
+    savedMessage: 'Soʻz saqlandi.',
+    deleteConfirm: 'Bu soʻzni oʻchirishni xohlaysizmi?',
+    deleteSuccess: 'Soʻz oʻchirildi.',
+    importErrorPrefix: 'Import xatosi: ',
+    importedSuccess: '{count} ta yangi soʻz import qilindi.',
+    exportNoWords: 'Eksport qilish uchun soʻzlar yoʻq.',
+    exportSuccess: 'Soʻzlar muvaffaqiyatli eksport qilindi.',
+    addFirstWordError: 'Iltimos, avval gap yoki soʻz qoʻshing.',
+    dailyGoalSet: 'Kunlik maqsad oʻrnatildi.',
+    goalInvalid: 'Maqsad 1 dan katta boʻlishi kerak.',
+    browserNoSpeech: 'Brauzeringiz ovozli talaffuzni qoʻllab-quvvatlamaydi.',
+  },
+  ru: {
+    siteTitle: 'Практика английских слов',
+    siteDescription: 'Добавляйте, сохраняйте и повторяйте слова легко.',
+    toggleLight: 'Дневная тема',
+    toggleDark: 'Ночная тема',
+    tabAdd: 'Добавить',
+    tabRepeat: 'Повторение',
+    addHeading: 'Добавить фразу или слово',
+    englishLabel: 'Английский текст',
+    translationLabel: 'Перевод',
+    categoryLabel: 'Категория',
+    categoryDaily: 'Ежедневное',
+    categoryWork: 'Работа',
+    categoryTravel: 'Путешествия',
+    categoryEducation: 'Образование',
+    categoryOther: 'Другое',
+    englishPlaceholder: 'English word or phrase',
+    translationPlaceholder: 'Перевод',
+    categorySelect: 'Выбрать',
+    submitBtn: 'Сохранить',
+    filterCategoryLabel: 'Категория',
+    allCategories: 'Все категории',
+    showFavorites: 'Избранное',
+    showAllWords: 'Показать все',
+    favoriteBtn: '★',
+    favoritedBtn: '★ В избранном',
+    importHeading: 'Импорт/Экспорт',
+    importWarning: 'Внимание: очистка данных браузера удаляет сохранённые записи. Сначала экспортируйте JSON.',
+    exportBtn: 'Экспорт слов (JSON)',
+    importBtn: 'Импорт слов (JSON)',
+    savedHeading: 'Сохранённые слова',
+    searchPlaceholder: 'Поиск...',
+    emptyWordList: 'Слова ещё не добавлены.',
+    repeatHeading: 'Повторение',
+    startPractice: 'Начать',
+    questionLabel: 'Вопрос:',
+    answerLabel: 'Ответ:',
+    speakBtn: '🔊 Произнеси',
+    showAnswerBtn: 'Показать ответ',
+    correctBtn: 'Правильно',
+    wrongBtn: 'Неправильно',
+    directionEnToUz: 'С английского на перевод',
+    directionUzToEn: 'С перевода на английский',
+    repeatInfo: 'Выучено: {count} раз подряд',
+    statsHeading: 'Статистика',
+    totalLabel: 'Всего слов',
+    correctLabel: '✅ Правильно',
+    wrongLabel: '❌ Неправильно',
+    dailyLabel: '📅 Сегодня правильно',
+    editBtn: 'Редактировать',
+    deleteBtn: 'Удалить',
+    categoryLabelList: 'Категория:',
+    correctText: 'Правильно',
+    wrongText: 'Неправильно',
+    streakLabel: 'Серии',
+    dailyGoalLabel: 'Ежедневная цель (слов):',
+    setDailyGoalBtn: 'Установить цель',
+    fillBothFields: 'Пожалуйста, заполните оба поля.',
+    savedMessage: 'Слово сохранено.',
+    deleteConfirm: 'Вы действительно хотите удалить это слово?',
+    deleteSuccess: 'Слово удалено.',
+    importErrorPrefix: 'Ошибка импорта: ',
+    importedSuccess: 'Импортировано {count} новых слов.',
+    exportNoWords: 'Нет слов для экспорта.',
+    exportSuccess: 'Слова успешно экспортированы.',
+    addFirstWordError: 'Пожалуйста, сначала добавьте слово.',
+    dailyGoalSet: 'Ежедневная цель установлена.',
+    goalInvalid: 'Цель должна быть больше 0.',
+    browserNoSpeech: 'Ваш браузер не поддерживает озвучивание.',
+  },
+};
+
+let currentLanguage = 'en';
 
 const tabs = {
   add: document.getElementById('tab-add'),
@@ -15,15 +230,26 @@ const sections = {
 
 const form = document.getElementById('add-form');
 const inputEnglish = document.getElementById('input-english');
-const inputUzbek = document.getElementById('input-uzbek');
+const inputTranslation = document.getElementById('input-translation');
 const inputCategory = document.getElementById('input-category');
 const addMessage = document.getElementById('add-message');
 const wordList = document.getElementById('word-list');
+const languageSelect = document.getElementById('language-select');
 
 const exportWords = document.getElementById('export-words');
 const importFile = document.getElementById('import-file');
 const importWords = document.getElementById('import-words');
 const importExportMessage = document.getElementById('import-export-message');
+const filterCategory = document.getElementById('filter-category');
+const toggleFavorites = document.getElementById('toggle-favorites');
+
+// Modal elements
+const modalOverlay = document.getElementById('modal-overlay');
+const modalClose = document.getElementById('modal-close');
+const modalCloseBtn = document.getElementById('modal-close-btn');
+const modalImportSample = document.getElementById('modal-import-sample');
+const modalTitle = document.getElementById('modal-title');
+const modalMessage = document.getElementById('modal-message');
 
 const startRepeat = document.getElementById('start-repeat');
 const repeatControls = document.querySelector('.repeat-controls');
@@ -52,6 +278,99 @@ let words = [];
 let stats = { correct: 0, wrong: 0 };
 let dailyStats = { date: new Date().toDateString(), correct: 0 };
 let dailyGoal = 10;
+let currentItem = null;
+let currentDirection = 'en-to-uz';
+let answerVisible = false;
+let showFavoritesOnly = false;
+
+function translate(key) {
+  return translations[currentLanguage][key] || translations.en[key] || key;
+}
+
+function formatMessage(template, values = {}) {
+  return template.replace(/\{(\w+)\}/g, (_, name) => values[name] ?? '');
+}
+
+function applyLanguage(language) {
+  currentLanguage = language;
+  languageSelect.value = language;
+  document.documentElement.lang = language === 'en' ? 'en' : language === 'uz' ? 'uz' : 'ru';
+
+  // Batch DOM updates for better performance
+  const elements = {
+    'site-title': 'siteTitle',
+    'site-description': 'siteDescription',
+    'tab-add': 'tabAdd',
+    'tab-repeat': 'tabRepeat',
+    'add-heading': 'addHeading',
+    'label-english': 'englishLabel',
+    'label-translation': 'translationLabel',
+    'label-category': 'categoryLabel',
+    'submit-btn': 'submitBtn',
+    'import-heading': 'importHeading',
+    'import-warning': 'importWarning',
+    'export-words': 'exportBtn',
+    'import-words': 'importBtn',
+    'saved-heading': 'savedHeading',
+    'repeat-heading': 'repeatHeading',
+    'start-repeat': 'startPractice',
+    'question-label': 'questionLabel',
+    'answer-label': 'answerLabel',
+    'speak-prompt': 'speakBtn',
+    'speak-answer': 'speakBtn',
+    'show-answer': 'showAnswerBtn',
+    'correct': 'correctBtn',
+    'wrong': 'wrongBtn',
+    'stats-heading': 'statsHeading',
+    'total-label': 'totalLabel',
+    'correct-label': 'correctLabel',
+    'wrong-label': 'wrongLabel',
+    'daily-label': 'dailyLabel',
+    'daily-goal-label': 'dailyGoalLabel',
+    'set-daily-goal': 'setDailyGoalBtn',
+    'filter-category-label': 'filterCategoryLabel',
+    'modal-import-sample': 'importSampleWords',
+    'modal-close-btn': 'closeModal'
+  };
+
+  // Update all elements in one loop
+  Object.entries(elements).forEach(([id, key]) => {
+    const element = document.getElementById(id);
+    if (element) element.textContent = translate(key);
+  });
+
+  // Special cases
+  const isDark = document.body.classList.contains('dark-mode');
+  document.getElementById('toggle-text').textContent = translate(isDark ? 'toggleLight' : 'toggleDark');
+  document.getElementById('language-label').textContent = language === 'en' ? 'Language' : language === 'uz' ? 'Til' : 'Язык';
+  document.getElementById('toggle-favorites').textContent = showFavoritesOnly ? translate('showAllWords') : translate('showFavorites');
+  document.getElementById('modal-close').textContent = '×';
+
+  // Update placeholders
+  inputEnglish.placeholder = translate('englishPlaceholder');
+  inputTranslation.placeholder = translate('translationPlaceholder');
+  searchWords.placeholder = translate('searchPlaceholder');
+
+  // Update category options
+  updateCategoryOptions();
+
+  // Reset repeat info
+  document.getElementById('repeat-direction').querySelector('strong').textContent = '';
+  document.getElementById('repeat-info').textContent = formatMessage(translate('repeatInfo'), { count: 0 });
+
+  renderWordList();
+}
+
+function updateCategoryOptions() {
+  const categoryOptions = filterCategory.querySelectorAll('option');
+  const categories = ['allCategories', 'categoryDaily', 'categoryWork', 'categoryTravel', 'categoryEducation', 'categoryOther'];
+
+  categoryOptions.forEach((option, index) => {
+    if (categories[index]) {
+      option.textContent = translate(categories[index]);
+    }
+  });
+}
 
 function loadStorage() {
   const stored = localStorage.getItem(STORAGE_KEY);
@@ -70,7 +389,10 @@ function loadStorage() {
   // Dark mode
   const darkMode = localStorage.getItem('english-dark-mode') === 'true';
   document.body.classList.toggle('dark-mode', darkMode);
-  toggleDarkMode.textContent = darkMode ? '☀️ Kunduzgi rejim' : '🌙 Tungi rejim';
+
+  const storedLanguage = localStorage.getItem('english-language');
+  currentLanguage = storedLanguage || 'en';
+  applyLanguage(currentLanguage);
 }
 
 function saveStorage() {
@@ -82,7 +404,7 @@ function saveStorage() {
 
 function exportWordsToFile() {
   if (!words.length) {
-    showImportExportMessage('Eksport qilish uchun so\'zlar yo\'q.', 'error');
+    showImportExportMessage(translate('exportNoWords'), 'error');
     return;
   }
   const dataStr = JSON.stringify(words, null, 2);
@@ -95,7 +417,7 @@ function exportWordsToFile() {
   link.click();
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
-  showImportExportMessage('So\'zlar muvaffaqiyatli eksport qilindi.', 'info');
+  showImportExportMessage(translate('exportSuccess'), 'info');
 }
 
 function importWordsFromFile(event) {
@@ -106,12 +428,12 @@ function importWordsFromFile(event) {
     try {
       const importedWords = JSON.parse(e.target.result);
       if (!Array.isArray(importedWords)) {
-        throw new Error('Noto\'g\'ri format.');
+        throw new Error('Invalid file format.');
       }
       // Validate structure
       for (const word of importedWords) {
         if (!word.english || !word.uzbek) {
-          throw new Error('So\'zlar noto\'g\'ri formatda.');
+          throw new Error('Invalid word format.');
         }
       }
       // Merge with existing words, avoid duplicates
@@ -123,9 +445,9 @@ function importWordsFromFile(event) {
       saveStorage();
       renderWordList();
       renderStats();
-      showImportExportMessage(`${newWords.length} ta yangi so\'z import qilindi.`, 'info');
+      showImportExportMessage(formatMessage(translate('importedSuccess'), { count: newWords.length }), 'info');
     } catch (error) {
-      showImportExportMessage('Import xatosi: ' + error.message, 'error');
+      showImportExportMessage(translate('importErrorPrefix') + error.message, 'error');
     }
   };
   reader.readAsText(file);
@@ -139,18 +461,18 @@ function showImportExportMessage(text, type = 'info') {
 function speakText(text) {
   if ('speechSynthesis' in window) {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US'; // English
+    utterance.lang = 'en-US';
     utterance.rate = 0.8;
     speechSynthesis.speak(utterance);
   } else {
-    alert('Brauzeringiz ovozli talaffuzni qo\'llab-quvvatlamaydi.');
+    alert(translate('browserNoSpeech'));
   }
 }
 
 function editWord(index) {
   const word = words[index];
   inputEnglish.value = word.english;
-  inputUzbek.value = word.uzbek;
+  inputTranslation.value = word.uzbek;
   inputCategory.value = word.category || '';
   // Remove the word temporarily
   words.splice(index, 1);
@@ -161,12 +483,12 @@ function editWord(index) {
 }
 
 function deleteWord(index) {
-  if (confirm('Bu so\'zni o\'chirishni xohlaysizmi?')) {
+  if (confirm(translate('deleteConfirm'))) {
     words.splice(index, 1);
     saveStorage();
     renderWordList();
     renderStats();
-    showMessage('So\'z o\'chirildi.', 'info');
+    showMessage(translate('deleteSuccess'), 'info');
   }
 }
 
@@ -179,6 +501,7 @@ function createWordObject(english, uzbek, category = '') {
     correctCount: 0,
     wrongCount: 0,
     streak: 0,
+    favorite: false,
   };
 }
 
@@ -187,33 +510,51 @@ function showMessage(text, type = 'info') {
   addMessage.style.color = type === 'error' ? '#dc2626' : '#2563eb';
 }
 
+function toggleFavorite(index) {
+  const word = words[index];
+  if (!word) return;
+  word.favorite = !word.favorite;
+  saveStorage();
+  renderWordList();
+}
+
 function renderWordList() {
   const query = searchWords.value.toLowerCase();
-  const filteredWords = words.filter(word =>
-    word.english.toLowerCase().includes(query) ||
-    word.uzbek.toLowerCase().includes(query) ||
-    (word.category && word.category.toLowerCase().includes(query))
-  );
+  const categoryValue = filterCategory.value;
+  const filteredWords = words.filter((word) => {
+    if (showFavoritesOnly && !word.favorite) {
+      return false;
+    }
+    if (categoryValue && word.category !== categoryValue) {
+      return false;
+    }
+    return (
+      word.english.toLowerCase().includes(query) ||
+      word.uzbek.toLowerCase().includes(query) ||
+      (word.category && word.category.toLowerCase().includes(query))
+    );
+  });
 
   if (filteredWords.length === 0) {
-    wordList.innerHTML = '<p>Hozircha biron bir so\'z qo\'shilmagan.</p>';
+    wordList.innerHTML = `<p>${translate('emptyWordList')}</p>`;
     return;
   }
 
   wordList.innerHTML = filteredWords
     .map(word => {
-      const originalIndex = words.indexOf(word);
+      const originalIndex = words.findIndex(w => w.id === word.id);
       return `
-        <div class="word-item">
+        <div class="word-item ${word.favorite ? 'favorite-item' : ''}">
           <div class="word-content">
             <span><strong>EN:</strong> ${escapeHtml(word.english)}</span>
-            <span><strong>UZ:</strong> ${escapeHtml(word.uzbek)}</span>
-            ${word.category ? `<span><strong>Kategoriya:</strong> ${escapeHtml(word.category)}</span>` : ''}
-            <small>To'g'ri: ${word.correctCount} • Xato: ${word.wrongCount} • Ketma-ket: ${word.streak}</small>
+            <span><strong>TR:</strong> ${escapeHtml(word.uzbek)}</span>
+            ${word.category ? `<span><strong>${translate('categoryLabelList')}</strong> ${escapeHtml(word.category)}</span>` : ''}
+            <small>${translate('correctText')}: ${word.correctCount} • ${translate('wrongText')}: ${word.wrongCount} • ${translate('streakLabel')}: ${word.streak}</small>
           </div>
           <div class="word-actions">
-            <button class="edit-btn" data-index="${originalIndex}">Tahrirlash</button>
-            <button class="delete-btn" data-index="${originalIndex}">O'chirish</button>
+            <button class="favorite-btn" data-index="${originalIndex}">${word.favorite ? translate('favoritedBtn') : translate('favoriteBtn')}</button>
+            <button class="edit-btn" data-index="${originalIndex}">${translate('editBtn')}</button>
+            <button class="delete-btn" data-index="${originalIndex}">${translate('deleteBtn')}</button>
           </div>
         </div>`;
     })
@@ -255,7 +596,7 @@ function resetRepeatView() {
 
 function selectRandomItem() {
   if (!words.length) {
-    showMessage('Iltimos, avval gap yoki so\'z qo\'shing.', 'error');
+    showMessage(translate('addFirstWordError'), 'error');
     return null;
   }
 
@@ -266,8 +607,19 @@ function selectRandomItem() {
   const pool = availableWords.length > 0 ? availableWords : words;
 
   const weighted = pool.map((item) => {
-    const base = 1;
-    const priority = base + item.wrongCount * 2 + Math.max(0, 3 - item.streak);
+    let priority = 1;
+    
+    // Add weight for frequently wrong words
+    priority += item.wrongCount * 2;
+    
+    // Add weight for low streak (needs more practice)
+    priority += Math.max(0, 3 - item.streak);
+    
+    // Add weight for favorite words (1.5x bonus)
+    if (item.favorite) {
+      priority *= 1.5;
+    }
+    
     const weight = Math.max(1, priority);
     return { item, weight };
   });
@@ -292,7 +644,7 @@ function startRepeatSession() {
   repeatCard.classList.remove('hidden');
   promptText.textContent = currentDirection === 'en-to-uz' ? currentItem.english : currentItem.uzbek;
   answerText.textContent = '******';
-  repeatDirection.querySelector('strong').textContent = currentDirection === 'en-to-uz' ? 'Inglizchadan o\'zbekchaga' : 'O\'zbekchadan inglizchaga';
+  repeatDirection.querySelector('strong').textContent = currentDirection === 'en-to-uz' ? translate('directionEnToUz') : translate('directionUzToEn');
   itemStreak.textContent = String(currentItem.streak);
 }
 
@@ -324,18 +676,18 @@ function submitResult(isCorrect) {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const english = inputEnglish.value.trim();
-  const uzbek = inputUzbek.value.trim();
+  const translation = inputTranslation.value.trim();
   const category = inputCategory.value;
 
-  if (!english || !uzbek) {
-    showMessage('Ikkala maydonni ham to\'ldiring.', 'error');
+  if (!english || !translation) {
+    showMessage(translate('fillBothFields'), 'error');
     return;
   }
 
-  words.push(createWordObject(english, uzbek, category));
+  words.push(createWordObject(english, translation, category));
   saveStorage();
   renderWordList();
-  showMessage('So\'z saqlandi.', 'info');
+  showMessage(translate('savedMessage'), 'info');
   form.reset();
 });
 
@@ -345,11 +697,15 @@ tabs.repeat.addEventListener('click', () => setActiveTab('repeat'));
 toggleDarkMode.addEventListener('click', () => {
   const isDark = document.body.classList.toggle('dark-mode');
   localStorage.setItem('english-dark-mode', isDark.toString());
-  toggleDarkMode.textContent = isDark ? '☀️ Kunduzgi rejim' : '🌙 Tungi rejim';
+  document.getElementById('toggle-text').textContent = translate(isDark ? 'toggleLight' : 'toggleDark');
 });
 
 startRepeat.addEventListener('click', () => {
   showMessage('');
+  if (!words.length) {
+    showModal(translate('noWordsTitle'), translate('noWordsMessage'));
+    return;
+  }
   repeatControls.closest('.card').remove();
   startRepeatSession();
 });
@@ -383,6 +739,16 @@ importWords.addEventListener('click', () => {
   importFile.click();
 });
 
+filterCategory.addEventListener('change', () => {
+  renderWordList();
+});
+
+toggleFavorites.addEventListener('click', () => {
+  showFavoritesOnly = !showFavoritesOnly;
+  toggleFavorites.textContent = showFavoritesOnly ? translate('showAllWords') : translate('showFavorites');
+  renderWordList();
+});
+
 importFile.addEventListener('change', importWordsFromFile);
 
 setDailyGoal.addEventListener('click', () => {
@@ -390,21 +756,30 @@ setDailyGoal.addEventListener('click', () => {
   if (goal > 0) {
     dailyGoal = goal;
     saveStorage();
-    showMessage('Kunlik maqsad o\'rnatildi.', 'info');
+    showMessage(translate('dailyGoalSet'), 'info');
   } else {
-    showMessage('Maqsad 1 dan katta bo\'lishi kerak.', 'error');
+    showMessage(translate('goalInvalid'), 'error');
   }
 });
 
 wordList.addEventListener('click', (event) => {
   const target = event.target;
-  if (target.classList.contains('edit-btn')) {
+  if (target.classList.contains('favorite-btn')) {
+    const index = parseInt(target.dataset.index);
+    toggleFavorite(index);
+  } else if (target.classList.contains('edit-btn')) {
     const index = parseInt(target.dataset.index);
     editWord(index);
   } else if (target.classList.contains('delete-btn')) {
     const index = parseInt(target.dataset.index);
     deleteWord(index);
   }
+});
+
+languageSelect.addEventListener('change', () => {
+  currentLanguage = languageSelect.value;
+  localStorage.setItem('english-language', currentLanguage);
+  applyLanguage(currentLanguage);
 });
 
 searchWords.addEventListener('input', () => {

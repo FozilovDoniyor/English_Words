@@ -1,143 +1,202 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inglizcha So'zlar Takrorlash</title>
+  <title>English Words Practice</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="app-shell">
-    <header>
-      <div>
-        <h1>Inglizcha So'zlar va Gaplar</h1>
-        <p>So'z qo'shish, saqlash va takrorlash uchun sayt.</p>
+  <div class="page-wrapper">
+    <aside class="banner-ad left-ad">
+      <div class="ad-placeholder">
+        Google Ad Banner Left<br />
+        Add AdSense code here
       </div>
-      <div class="header-controls">
-        <div class="toggle-switch">
-          <input type="checkbox" id="toggle-dark-mode" />
-          <label for="toggle-dark-mode" class="toggle-label">
-            <span class="toggle-slider"></span>
-          </label>
-          <span class="toggle-text">Tungi rejim</span>
-        </div>
-        <nav class="tabs">
-          <button id="tab-add" class="tab active">Gap qo'shish</button>
-          <button id="tab-repeat" class="tab">Takrorlash</button>
-        </nav>
-      </div>
-    </header>
+    </aside>
 
-    <section id="section-add" class="section active">
-      <div class="card">
-        <h2>Yangi gap yoki so'z qo'shish</h2>
-        <form id="add-form" autocomplete="off">
-          <label>
-            Inglizcha matn
-            <input type="text" id="input-english" placeholder="English word or phrase" required />
-          </label>
-          <label>
-            Tarjima (o'zbekcha)
-            <input type="text" id="input-uzbek" placeholder="O'zbekcha tarjima" required />
-          </label>
-          <label>
-            Kategoriya
-            <select id="input-category">
-              <option value="">Tanlang</option>
-              <option value="kundalik">Kundalik</option>
-              <option value="ish">Ish</option>
-              <option value="sayohat">Sayohat</option>
-              <option value="ta'lim">Ta'lim</option>
-              <option value="boshqa">Boshqa</option>
+    <main class="app-shell">
+      <header>
+        <div>
+          <h1 id="site-title">English Words Practice</h1>
+          <p id="site-description">Add, save and repeat words with ease.</p>
+          <nav class="tabs">
+            <button id="tab-add" class="tab active">Add Phrase</button>
+            <button id="tab-repeat" class="tab">Repeat</button>
+          </nav>
+        </div>
+        <div class="header-controls">
+          <div class="toggle-switch">
+            <input type="checkbox" id="toggle-dark-mode" />
+            <label for="toggle-dark-mode" class="toggle-label">
+              <span class="toggle-slider"></span>
+            </label>
+            <span id="toggle-text" class="toggle-text">Dark mode</span>
+          </div>
+          <label class="language-selector">
+            <span id="language-label">Language</span>
+            <select id="language-select">
+              <option value="en">English</option>
+              <option value="uz">O'zbek</option>
+              <option value="ru">Русский</option>
             </select>
           </label>
-          <button type="submit" class="primary">Qo'shish</button>
-        </form>
-        <div id="add-message" class="message"></div>
-      </div>
+        </div>
+      </header>
 
-      <div class="card">
-        <h2>Import/Export</h2>
-        <p class="warning">Ogohlantirish: Browser tarixini tozalashda localStorage ham tozalanadi. Ma'lumotlarni saqlash uchun JSON faylni eksport qilib oling.</p>
-        <div class="import-export-controls">
-          <button id="export-words" class="secondary">So'zlarni eksport qilish (JSON)</button>
-          <input type="file" id="import-file" accept=".json" style="display: none;" />
-          <button id="import-words" class="secondary">So'zlarni import qilish (JSON)</button>
+      <section id="section-add" class="section active">
+        <div class="card">
+          <h2 id="add-heading">Add a new phrase or word</h2>
+          <form id="add-form" autocomplete="off">
+            <label>
+              <span id="label-english">English text</span>
+              <input type="text" id="input-english" placeholder="English word or phrase" required />
+            </label>
+            <label>
+              <span id="label-translation">Translation</span>
+              <input type="text" id="input-translation" placeholder="Translation" required />
+            </label>
+            <label>
+              <span id="label-category">Category</span>
+              <select id="input-category">
+                <option value="">Select</option>
+                <option value="daily">Daily</option>
+                <option value="work">Work</option>
+                <option value="travel">Travel</option>
+                <option value="education">Education</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <button type="submit" class="primary" id="submit-btn">Save</button>
+          </form>
+          <div id="add-message" class="message"></div>
         </div>
-        <div id="import-export-message" class="message"></div>
-      </div>
 
-      <div class="card small-card">
-        <h3>Saqlangan so'zlar</h3>
-        <input type="text" id="search-words" placeholder="Qidiruv..." />
-        <div id="word-list" class="word-list"></div>
-      </div>
-    </section>
-
-    <section id="section-repeat" class="section">
-      <div class="card">
-        <h2>Takrorlash</h2>
-        <div class="repeat-controls">
-          <button id="start-repeat" class="primary">Takrorlashni boshlash</button>
-        </div>
-      </div>
-
-      <div id="repeat-card" class="card hidden">
-        <div class="prompt-block">
-          <span class="prompt-label">Savol:</span>
-          <p id="prompt-text" class="prompt-text"></p>
-          <button id="speak-prompt" class="speak-btn">🔊 O'qish</button>
-        </div>
-        <div class="answer-block">
-          <span class="answer-label">Javob:</span>
-          <p id="answer-text" class="answer-text">******</p>
-          <button id="speak-answer" class="speak-btn">🔊 O'qish</button>
-        </div>
-        <div class="repeat-actions">
-          <button id="show-answer" class="secondary">Tarjimani ko'rsatish</button>
-          <button id="correct" class="primary">To'g'ri</button>
-          <button id="wrong" class="danger">Xato</button>
-        </div>
-        <div class="meta">
-          <p id="repeat-direction">Yo'nalish: <strong></strong></p>
-          <p id="repeat-info">O'rganilgan: <span id="item-streak">0</span> marta ketma-ket to'g'ri</p>
-        </div>
-      </div>
-
-      <div class="card stats-card">
-        <h3>Statistika</h3>
-        <div class="stats-grid">
-          <div>
-            <strong id="stat-total">0</strong>
-            <span>Umumiy so'z</span>
+        <div class="card">
+          <h2 id="import-heading">Import/Export</h2>
+          <p class="warning" id="import-warning">Warning: clearing browser data also deletes saved entries. Export your JSON first.</p>
+          <div class="import-export-controls">
+            <button id="export-words" class="secondary">Export words (JSON)</button>
+            <input type="file" id="import-file" accept=".json" style="display: none;" />
+            <button id="import-words" class="secondary">Import words (JSON)</button>
           </div>
-          <div>
-            <strong id="stat-correct">0</strong>
-            <span>✅ To'g'ri javob</span>
+          <div id="import-export-message" class="message"></div>
+        </div>
+
+        <div class="card small-card">
+          <h3 id="saved-heading">Saved words</h3>
+          <div class="filter-row">
+            <div class="filter-group">
+              <label for="filter-category" id="filter-category-label">Category</label>
+              <select id="filter-category">
+                <option value="">All categories</option>
+                <option value="daily">Daily</option>
+                <option value="work">Work</option>
+                <option value="travel">Travel</option>
+                <option value="education">Education</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <button id="toggle-favorites" class="secondary">Show favorites</button>
           </div>
-          <div>
-            <strong id="stat-wrong">0</strong>
-            <span>❌ Xato javob</span>
-          </div>
-          <div>
-            <strong id="stat-daily">0</strong>
-            <span>📅 Bugun to'g'ri</span>
+          <input type="text" id="search-words" placeholder="Search..." />
+          <div id="word-list" class="word-list"></div>
+        </div>
+      </section>
+
+      <section id="section-repeat" class="section">
+        <div class="card">
+          <h2 id="repeat-heading">Repeat practice</h2>
+          <div class="repeat-controls">
+            <button id="start-repeat" class="primary">Start practice</button>
           </div>
         </div>
-        <div class="daily-goal">
-          <label>
-            Kunlik maqsad (so'z):
-            <input type="number" id="daily-goal-input" min="1" value="10" />
-          </label>
-          <button id="set-daily-goal" class="secondary">O'rnatish</button>
-          <div class="progress-bar">
-            <div id="daily-progress" class="progress-fill"></div>
-            <span id="progress-text">0 / 10</span>
+
+        <div id="repeat-card" class="card hidden">
+          <div class="output-section">
+            <label class="output-label" id="question-label">Question:</label>
+            <div class="output-display">
+              <p id="prompt-text" class="output-text"></p>
+            </div>
+            <button id="speak-prompt" class="speak-btn">🔊 Speak</button>
+          </div>
+          <div class="output-section">
+            <label class="output-label" id="answer-label">Answer:</label>
+            <div class="output-display">
+              <p id="answer-text" class="output-text">******</p>
+            </div>
+            <button id="speak-answer" class="speak-btn">🔊 Speak</button>
+          </div>
+          <div class="repeat-actions">
+            <button id="show-answer" class="secondary">Show answer</button>
+            <button id="correct" class="primary">Correct</button>
+            <button id="wrong" class="danger">Wrong</button>
+          </div>
+          <div class="meta">
+            <p id="repeat-direction">Direction: <strong></strong></p>
+            <p id="repeat-info">Learned: <span id="item-streak">0</span> times in a row</p>
           </div>
         </div>
+
+        <div class="card stats-card">
+          <h3 id="stats-heading">Statistics</h3>
+          <div class="stats-grid">
+            <div>
+              <strong id="stat-total">0</strong>
+              <span id="total-label">Total words</span>
+            </div>
+            <div>
+              <strong id="stat-correct">0</strong>
+              <span id="correct-label">✅ Correct answers</span>
+            </div>
+            <div>
+              <strong id="stat-wrong">0</strong>
+              <span id="wrong-label">❌ Wrong answers</span>
+            </div>
+            <div>
+              <strong id="stat-daily">0</strong>
+              <span id="daily-label">📅 Today correct</span>
+            </div>
+          </div>
+          <div class="daily-goal">
+            <label>
+              <span id="daily-goal-label">Daily goal (words):</span>
+              <input type="number" id="daily-goal-input" min="1" value="10" />
+            </label>
+            <button id="set-daily-goal" class="secondary">Set goal</button>
+            <div class="progress-bar">
+              <div id="daily-progress" class="progress-fill"></div>
+              <span id="progress-text">0 / 10</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="banner-ad right-ad">
+      <div class="ad-placeholder">
+        Google Ad Banner Right<br />
+        Add AdSense code here
       </div>
-    </section>
-  </main>
+    </aside>
+  </div>
+
+  <!-- Modal Dialog for No Words Warning -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2 id="modal-title">No words available</h2>
+        <button id="modal-close" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-message">Please add words first before starting practice.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-import-sample" class="primary">Import sample words</button>
+        <button id="modal-close-btn" class="secondary">Close</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

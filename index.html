@@ -20,6 +20,7 @@
         <div>
           <h1 id="site-title">English Words Practice</h1>
           <p id="site-description">Add, save and repeat words with ease.</p>
+          <p id="header-progress" class="header-progress">Today's progress: 0 / 10</p>
           <nav class="tabs">
             <button id="tab-add" class="tab active">Add Phrase</button>
             <button id="tab-repeat" class="tab">Repeat</button>
@@ -97,16 +98,50 @@
                 <option value="other">Other</option>
               </select>
             </div>
+            <div class="filter-group">
+              <label for="filter-mode" id="filter-mode-label">Practice focus</label>
+              <select id="filter-mode">
+                <option value="all">All words</option>
+                <option value="new">New words</option>
+                <option value="wrong">Hard words</option>
+                <option value="mastered">Mastered</option>
+              </select>
+            </div>
             <button id="toggle-favorites" class="secondary">Show favorites</button>
+            <button id="undo-btn" class="secondary">Undo last action</button>
+          </div>
+          <div class="mastered-progress-wrap">
+            <div class="mastered-progress-bar">
+              <div id="mastered-progress-fill" class="mastered-progress-fill"></div>
+            </div>
+            <span id="mastered-progress-text">Mastered 0%</span>
           </div>
           <input type="text" id="search-words" placeholder="Search..." />
           <div id="word-list" class="word-list"></div>
+          <div class="pagination-controls">
+            <button id="prev-page" class="secondary">Previous</button>
+            <span id="page-indicator">Page 1 / 1</span>
+            <button id="next-page" class="secondary">Next</button>
+          </div>
         </div>
       </section>
 
       <section id="section-repeat" class="section">
         <div class="card">
           <h2 id="repeat-heading">Repeat practice</h2>
+          <div class="repeat-settings">
+            <label for="reverse-ratio" id="reverse-ratio-label">Reverse mode ratio (TR → EN %)</label>
+            <input type="range" id="reverse-ratio" min="0" max="100" value="50" />
+            <span id="reverse-ratio-value">50%</span>
+          </div>
+          <div class="repeat-settings">
+            <label for="repeat-mode" id="repeat-mode-label">Session mode</label>
+            <select id="repeat-mode">
+              <option value="smart">Smart mix</option>
+              <option value="wrong">Hard words only</option>
+              <option value="new">New words only</option>
+            </select>
+          </div>
           <div class="repeat-controls">
             <button id="start-repeat" class="primary">Start practice</button>
           </div>
@@ -156,6 +191,10 @@
             <div>
               <strong id="stat-daily">0</strong>
               <span id="daily-label">📅 Today correct</span>
+            </div>
+            <div>
+              <strong id="stat-mastered-percent">0%</strong>
+              <span id="mastered-percent-label">🏆 Mastered %</span>
             </div>
           </div>
           <div class="daily-goal">
